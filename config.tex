@@ -1,0 +1,46 @@
+% \usepackage{fixltx2e}
+% \usepackage{classicthesis}
+\usepackage{polyglossia}
+\usepackage[natbib=true, 
+			style=nature, %authoryear or numeric; comp == compact
+			bibstyle=nature, 
+			uniquelist=false, 
+			uniquename=false]{biblatex}
+\usepackage{booktabs}
+\usepackage{relsize}
+\usepackage{setspace}
+\usepackage{lineno}
+\usepackage{wrapfig}
+\usepackage{sidecap}
+
+\setdefaultlanguage{english}
+\setmainfont[Mapping=tex-text, 
+			 Numbers=OldStyle, 
+			 % SizeFeatures={{Size=12}}
+			 ]{Times}
+\setsansfont[Mapping=tex-text, 
+			 Numbers=OldStyle, 
+			 % SizeFeatures={{Size=12}}
+			 ]{Helvetica}
+\setmonofont[Scale=0.8]{Monaco}
+\setcounter{secnumdepth}{0}
+
+\addbibresource{ELI.bib}
+
+% Set the line spread (height). Be careful here, use too small rather than too
+% large value. Also: double-spaced lines correspond to a value of ~1.3,
+% depending on the font, NOT to 2.0
+\setstretch{1.1} % 1.1 normally
+
+\graphicspath{{figs/}}
+
+%% Custom macros
+
+\newcommand*\captitle[1]{\textbf{#1}}
+\newcommand*\todo[1]{%
+    \graffito{\textcolor{red}{TO\ DO: #1}}}
+
+\newcommand*\gene[1]{\textit{#1}}
+\newcommand*\ko[1]{\textit{#1\textsuperscript{\(-/-\)}}}
+\newcommand*\protein[1]{#1}
+\newcommand*\species[1]{\textit{#1}}

@@ -1,14 +1,14 @@
-TARGETS := sections/BiographicalSketch.pdf \
-	sections/ProjectSummary.pdf \
-	sections/ProjectNarrative.pdf \
-	sections/BibliographyReferencesCited.pdf \
-	sections/Equipment.pdf \
-	sections/FacilitiesOtherResources.pdf
+TARGETS := BiographicalSketch.pdf \
+	ProjectSummary.pdf \
+	ProjectNarrative.pdf \
+	BibliographyReferencesCited.pdf \
+	Equipment.pdf \
+	FacilitiesOtherResources.pdf
 
-all : $(TARGETS)
+all : packet/ProjectNarrative.pdf # $(TARGETS)
 
-%.pdf : %.tex ELI.bib
-	latexmk -xelatex -r .latexmkrc $< $@
+packet/%.pdf : %.tex config.tex ELI.bib
+	latexmk -xelatex -r .latexmkrc $<
 
 %.pdf : %.md
 	pandoc -t latex --latex-engine=xelatex -o $@ $<
@@ -16,11 +16,11 @@ all : $(TARGETS)
 %.docx : %.tex
 	pandoc -t docx --reference-docx $*-template.docx --latex-engine=xelatex -o $@ $<
 
-clean: 
-	latexmk -c
+clean : $(TARGETS)
+	latexmk -c -r .latexmkrc
 	$(RM) -r $(shell biber --cache)
 
-cleanall: clean
-	$(RM) $(TARGETS)
+cleanall :
+	latexmk -C -r .latexmkrc
 
 .PHONY: all clean cleanall
