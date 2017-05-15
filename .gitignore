@@ -7,3 +7,4 @@ packet/*.fls
 packet/*.log
 packet/*.pdf
 packet/*.run.xml
+packet/*_biber.bib
