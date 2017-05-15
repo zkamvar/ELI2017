@@ -10,6 +10,10 @@ all : $(TARGETS)
 packet/%.pdf : %.tex config.tex ELI.bib
 	latexmk -xelatex -quiet -r .latexmkrc $<
 
+packet/BibliographyReferencesCited.pdf : BibliographyReferencesCited.tex packet/ProjectNarrative.pdf
+	biber --output_format=bibtex --output_resolve packet/ProjectNarrative.bcf
+	latexmk -xelatex -quiet -r .latexmkrc $<
+
 %.pdf : %.md
 	pandoc -t latex --latex-engine=xelatex -o $@ $<
 
