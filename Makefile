@@ -10,7 +10,11 @@ all : $(TARGETS)
 packet/%.pdf : %.tex config.tex ELI.bib
 	latexmk -xelatex -quiet -r .latexmkrc $<
 
-packet/BibliographyReferencesCited.pdf : BibliographyReferencesCited.tex packet/ProjectNarrative.pdf
+# The bibliography must be separate. It depends on the rendering of the
+# ProjectNarrative to get it in the correct order
+packet/BibliographyReferencesCited.pdf : BibliographyReferencesCited.tex \
+										 packet/ProjectNarrative.pdf
+	# https://tex.stackexchange.com/a/164328/77699
 	biber --output_format=bibtex --output_resolve packet/ProjectNarrative.bcf
 	latexmk -xelatex -quiet -r .latexmkrc $<
 
