@@ -1,14 +1,14 @@
-TARGETS := BiographicalSketch.pdf \
-	ProjectSummary.pdf \
-	ProjectNarrative.pdf \
-	BibliographyReferencesCited.pdf \
-	Equipment.pdf \
-	FacilitiesOtherResources.pdf
+TARGETS := packet/BiographicalSketch.pdf \
+	packet/ProjectSummary.pdf \
+	packet/ProjectNarrative.pdf \
+	packet/BibliographyReferencesCited.pdf \
+	packet/Equipment.pdf \
+	packet/FacilitiesOtherResources.pdf
 
-all : packet/ProjectNarrative.pdf # $(TARGETS)
+all : $(TARGETS)
 
 packet/%.pdf : %.tex config.tex ELI.bib
-	latexmk -xelatex -r .latexmkrc $<
+	latexmk -xelatex -quiet -r .latexmkrc $<
 
 %.pdf : %.md
 	pandoc -t latex --latex-engine=xelatex -o $@ $<
