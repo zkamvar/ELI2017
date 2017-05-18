@@ -42,6 +42,18 @@ research and open science in plant pathology.
 [FAQs]: https://nifa.usda.gov/sites/default/files/Predoctoral%20and%20Postdoctral%20Fellowship%20FAQs_0.pdf
 [Application form]: https://www.grants.gov/web/grants/view-opportunity.html?oppId=293349
 
+Program Area Priority
+---------------------
+
+The AFRI Postdoctoral Fellowships program area will support projects with: 
+
+1. focused research, education, and extension objectives that are aligned with
+   AFRI Farm Bill priority areas;
+2. well-developed academic experiences and global competencies;
+3. productive and interactive mentoring;
+4. appropriate and applicable training/career development activities; and
+5. substantive evaluation plans.
+
 Application Structure
 =====================
 
