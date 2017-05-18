@@ -1,17 +1,23 @@
 \RequirePackage{nag}
-\documentclass[letterpaper]{scrartcl}
+\documentclass[12pt,letterpaper]{article}
 \usepackage{atbegshi}
 
 \input{config.tex}
 
-\begin{document}
+\title{\ruleline{Project Narrative}}
 
-\linenumbers
-\setstretch{1.4}
+\begin{document}
+\maketitle
 
 ohai \citep{lehner2017independently} ohai \citep{clarkson2017population}
 
 yo \citep{clarkson2017population}.
+
+% https://tex.stackexchange.com/a/224803/77699
+\newpage
+\AtBeginShipout{%
+\AtBeginShipoutDiscard
+}
 
 \printbibliography
 
