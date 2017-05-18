@@ -1,9 +1,16 @@
-TARGETS := packet/BiographicalSketch.pdf \
+TARGETS := packet/LogicModel.pdf \
+	packet/BiographicalSketch.pdf \
 	packet/ProjectSummary.pdf \
 	packet/ProjectNarrative.pdf \
 	packet/BibliographyReferencesCited.pdf \
+	packet/FacilitiesOtherResources.pdf \
 	packet/Equipment.pdf \
-	packet/FacilitiesOtherResources.pdf
+	packet/BudgetJustification.pdf \
+	packet/ConflictOfInterest.pdf \
+	packet/ManagementPlan.pdf \
+	packet/DataManagementPlan.pdf
+	
+	
 
 all : $(TARGETS)
 
