@@ -63,12 +63,13 @@ Project Information Documents
 -----------------------------
 
 1. Project Summary/Abstract (save file as "ProjectSummary.pdf")
-2. Project Narrative (save as "ProjectNarrative.pdf" <= 10 pages; 12 pt font;
-   six lines/inch)
-      i. Training/Career Development Plan ii. Mentoring Plan iii. Project Plan
-          a. Introduction
-          b. Rationale and Significance
-          c. Approach iv. Evaluation Plan
+2. Project Narrative (save as "ProjectNarrative.pdf" <= 10 pages; 12 pt font; six lines/inch)    
+     1. Training/Career Development Plan 
+     2. Mentoring Plan 
+     3. Project Plan
+        1. Introduction
+        2. Rationale and Significance
+        3. Approach iv. Evaluation Plan
 3. Bibliography and References Cited (no page limit; save as
    'BibliographyReferencesCited.pdf') (Note, there is a trick to [generating a
    separate pdf] for the bibliography in LaTeX)
