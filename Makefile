@@ -8,8 +8,7 @@ TARGETS := packet/LogicModel.pdf \
 	packet/BudgetJustification.pdf \
 	packet/ConflictOfInterest.pdf \
 	packet/ManagementPlan.pdf \
-	packet/DataManagementPlan.pdf
-	
+	packet/DataManagementPlan.pdf  
 	
 
 all : $(TARGETS)
@@ -39,3 +38,9 @@ cleanall :
 	latexmk -C -r .latexmkrc
 
 .PHONY: all clean cleanall
+
+# This will only work on OSX
+.PHONY: open
+
+open : $(TARGETS)
+	open $^
