@@ -69,7 +69,8 @@ Project Information Documents
      3. Project Plan
         1. Introduction
         2. Rationale and Significance
-        3. Approach iv. Evaluation Plan
+        3. Approach 
+     4. Evaluation Plan
 3. Bibliography and References Cited (no page limit; save as
    'BibliographyReferencesCited.pdf') (Note, there is a trick to [generating a
    separate pdf] for the bibliography in LaTeX)
