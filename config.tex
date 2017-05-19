@@ -2,22 +2,24 @@
 % \usepackage{classicthesis}
 \usepackage{polyglossia}
 \usepackage[natbib=true, 
-			style=numeric, %authoryear or numeric; comp == compact
+			style=numeric,   % authoryear or numeric; comp == compact
 			bibstyle=nature, 
-			backend=biber,
+			backend=biber,   % necessary for bibliography on separate page
 			uniquelist=false, 
 			sorting=none,
 			uniquename=false]{biblatex}
 \usepackage{booktabs}
 \usepackage{relsize}
 \usepackage{setspace}
-\usepackage{lineno}
-\usepackage{wrapfig}
+\usepackage{lineno}      % line numbers
+\usepackage{wrapfig}     % allows for text to wrap figures (kinda clunky)
 \usepackage{sidecap}
-\usepackage{hyperref}
+\usepackage{hyperref}    % hyperlinks/urls
+\usepackage{indentfirst} % Indents first paragraph of section
+\usepackage{titling}     % package to muck with the titles
 \usepackage[margin=1in]{geometry}
-% Messing with the title settings
-\usepackage{titling}
+
+% Title Settings ------------------------------------------
 \setlength{\droptitle}{-20ex} % lower the title
 \pretitle{\begin{flushleft}\Large\bfseries\sffamily}
 \posttitle{\end{flushleft}\vspace{-5ex}}
@@ -32,6 +34,8 @@
 % https://tex.stackexchange.com/a/15122/77699
 \newcommand*\ruleline[1]{\par\noindent\raisebox{.8ex}{\makebox[\linewidth]{\hrulefill\hspace{1ex}\raisebox{-.8ex}{#1}\hspace{1ex}\hrulefill}}}
 
+
+% Typeface Settings ----------------------------------------
 \setdefaultlanguage{english}
 \setmainfont[Mapping=tex-text, 
 			 Numbers=OldStyle, 
