@@ -57,37 +57,30 @@ The AFRI Postdoctoral Fellowships program area will support projects with:
 Application Structure
 =====================
 
-Biographical Sketch
--------------------
+Each link below goes to a particular tex document with the relevant information
+inside. 
 
-The Biographical sketch must include the following information:
+ 1. [LogicModel]
+ 1. [BiographicalSketch]
+ 1. [ProjectSummary]
+ 1. [ProjectNarrative]
+ 1. [BibliographyReferencesCited]
+ 1. [FacilitiesOtherResources]
+ 1. [Equipment]
+ 1. [BudgetJustification]
+ 1. [ConflictOfInterest]
+ 1. [ManagementPlan]
+ 1. [DataManagementPlan]
 
-* be no more than 2 pages in length, excluding lists of publications;
-* include a presentation of academic, extension, and/or research credentials
-  including, as applicable: earned degrees, teaching experience, employment
-  history, professional activities, honors and awards, and grants received;
-* indicate TOTAL number of undergraduate students directly mentored or trained
-  through experiential learning activities during the past four (4) years; and
-* include all relevant publications in refereed journals during the past four
-  (4) years, including those in submission.
+[LogicModel]: LogicModel.tex
+[BiographicalSketch]: BiographicalSketch.tex
+[ProjectSummary]: ProjectSummary.tex
+[ProjectNarrative]: ProjectNarrative.tex
+[BibliographyReferencesCited]: BibliographyReferencesCited.tex
+[FacilitiesOtherResources]: FacilitiesOtherResources.tex
+[Equipment]: Equipment.tex
+[BudgetJustification]: BudgetJustification.tex
+[ConflictOfInterest]: ConflictOfInterest.tex
+[ManagementPlan]: ManagementPlan.tex
+[DataManagementPlan]: DataManagementPlan.tex
 
-Project Information Documents
------------------------------
-
-1. Project Summary/Abstract (save file as "ProjectSummary.pdf")
-2. Project Narrative (save as "ProjectNarrative.pdf" <= 10 pages; 12 pt font; six lines/inch)    
-     1. Training/Career Development Plan 
-     2. Mentoring Plan 
-     3. Project Plan
-        1. Introduction
-        2. Rationale and Significance
-        3. Approach 
-     4. Evaluation Plan
-3. Bibliography and References Cited (no page limit; save as
-   'BibliographyReferencesCited.pdf') (Note, there is a trick to [generating a
-   separate pdf] for the bibliography in LaTeX)
-4. Facilities and Other Resources (no page limit; save as
-   'FacilitiesOtherResources.pdf')
-5. Equipment (no page limit; save as 'Equipment.pdf')
-
-[generating a separate pdf]: https://tex.stackexchange.com/a/224803/77699
