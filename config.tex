@@ -9,6 +9,8 @@
 			sorting=none,
 			uniquename=false]{biblatex}
 \usepackage{booktabs}
+\usepackage{fancyhdr}    % for header and footers
+\usepackage{enumitem}    % to reduce vertical space in lists
 \usepackage{relsize}
 \usepackage{setspace}
 \usepackage{lineno}      % line numbers
@@ -17,7 +19,21 @@
 \usepackage{hyperref}    % hyperlinks/urls
 \usepackage{indentfirst} % Indents first paragraph of section
 \usepackage{titling}     % package to muck with the titles
+\usepackage{titlesec}    % package to deal with the section titles
 \usepackage[margin=1in]{geometry}
+
+% Format spacing of the sections to be much smaller than normal
+\titlespacing*
+	{\section} % command
+	{0em}      % left -1.25 is good, too
+	{1.5ex}    % before separator
+	{1ex}      % after separator
+
+% Fancy Headers -------------------------------------------
+\pagestyle{fancy}
+
+% Reduce spacing in lists ---------------------------------
+\setlist{noitemsep}
 
 % Title Settings ------------------------------------------
 \setlength{\droptitle}{-20ex} % lower the title
@@ -30,9 +46,19 @@
 \date{}
 \postdate{}
 
-% Adding horizontal lines to the left and right of text
+% Changing Title ------------------------------------------
+% 
+% Here, we center the title and place 5pt lines on either side.
+% This is done by defining a new \hrulefill macro and adding a new
+% command called \ruleline
+%
+% https://tex.stackexchange.com/a/65734/77699
+\def\fhrulefill{\leavevmode\leaders\hrule height 5pt\hfill\kern0pt}
+%
 % https://tex.stackexchange.com/a/15122/77699
-\newcommand*\ruleline[1]{\par\noindent\raisebox{.8ex}{\makebox[\linewidth]{\hrulefill\hspace{1ex}\raisebox{-.8ex}{#1}\hspace{1ex}\hrulefill}}}
+% Note: normally, this would be \hrulefill, but I wanted to change
+% the thickness, so I made my own macro called \fhrulefill
+\newcommand*\ruleline[1]{\par\noindent\raisebox{.3ex}{\makebox[\linewidth]{\fhrulefill\hspace{1ex}\raisebox{-.3ex}{#1}\hspace{1ex}\fhrulefill}}}
 
 
 % Typeface Settings ----------------------------------------
