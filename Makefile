@@ -15,7 +15,7 @@ TARGETS := packet/LogicModel.pdf \
 all : $(TARGETS)
 
 packet/%.pdf : %.tex config.tex ELI.bib
-	latexmk -xelatex -quiet -r .latexmkrc $<
+	-latexmk -xelatex -quiet -r .latexmkrc $<
 
 # The bibliography must be separate. It depends on the rendering of the
 # ProjectNarrative to get it in the correct order
