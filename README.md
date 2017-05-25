@@ -7,6 +7,7 @@ Food Research Initiative's Education and Literacy Initiative.
  - [Request for Applications]
  - Pre and Post-doctoral [FAQs] (PDF)
  - [Application form]
+ - [AFRI Project Types] (PDF)
 
 
 #### Due Date: Wednesday, June 21, 2017
@@ -41,6 +42,7 @@ research and open science in plant pathology.
 [Request for Applications]: https://nifa.usda.gov/funding-opportunity/agriculture-and-food-research-initiative-food-agriculture-natural-resources
 [FAQs]: https://nifa.usda.gov/sites/default/files/Predoctoral%20and%20Postdoctral%20Fellowship%20FAQs_0.pdf
 [Application form]: https://www.grants.gov/web/grants/view-opportunity.html?oppId=293349
+[AFRI Project Types]: https://nifa.usda.gov/sites/default/files/resource/AFRI-Project-Types.pdf
 
 Program Area Priority
 ---------------------
