@@ -156,13 +156,13 @@ describing the role of the mentor, the applicant should:
 
 \section{Project Plan}
 
-The research should be totally independent of the mentor's. Proven techniques
-and technologies as part of the experimental approach, especially if these are
-routinely employed, don't have to be provided in detail. Experimental
-approaches or strategies including possible pitfalls and alternatives must be
-provided in order to assess the overall feasibility of the Updated March 10,
-2017 proposed study. Avoid open-ended screens or undefined outcomes. The scope
-of the project should be within the 2-year timeframe.
+% The research should be totally independent of the mentor's. Proven techniques
+% and technologies as part of the experimental approach, especially if these are
+% routinely employed, don't have to be provided in detail. Experimental
+% approaches or strategies including possible pitfalls and alternatives must be
+% provided in order to assess the overall feasibility of the Updated March 10,
+% 2017 proposed study. Avoid open-ended screens or undefined outcomes. The scope
+% of the project should be within the 2-year timeframe.
 
 \subsection{Introduction}
 
@@ -263,63 +263,71 @@ Open science has long-term broad effects of increased confidence among stakehold
 \subsection{Approach}
 
 
-Provide a concise description of the proposed project and the problem(s) to be
-addressed. Clearly describe the approaches to be used. Specifically, this
-section must include:
+% Provide a concise description of the proposed project and the problem(s) to be
+% addressed. Clearly describe the approaches to be used. Specifically, this
+% section must include:
 
-\begin{itemize}
-  \item A description of the project details proposed and the sequence in which the
-   activities are to be performed;
+% \begin{itemize}
+%   \item A description of the project details proposed and the sequence in which the
+%    activities are to be performed;
  
-  \item Methods to be used in carrying out the proposed project and feasibility of
-   the methods (detail only if a new and unproven method is to be used; if
-   employing commonly used methods provide information on the expertise
-   available);
+%   \item Methods to be used in carrying out the proposed project and feasibility of
+%    the methods (detail only if a new and unproven method is to be used; if
+%    employing commonly used methods provide information on the expertise
+%    available);
  
-  \item Expected outcomes and outcome measures;
-  \item Means by which results will be analyzed, assessed, or interpreted;
-  \item How results or products will be used;
-  \item Pitfalls that may be encountered, and possible alternatives;
-  \item Limitations to proposed procedures;
+%   \item Expected outcomes and outcome measures;
+%   \item Means by which results will be analyzed, assessed, or interpreted;
+%   \item How results or products will be used;
+%   \item Pitfalls that may be encountered, and possible alternatives;
+%   \item Limitations to proposed procedures;
  
-  \item A full explanation of any materials, procedures, situations, or activities
-   related to the project that may be hazardous to personnel, along with an
-   outline or precautions to be exercised to avoid or mitigate the effects of
-   such hazards;
+%   \item A full explanation of any materials, procedures, situations, or activities
+%    related to the project that may be hazardous to personnel, along with an
+%    outline or precautions to be exercised to avoid or mitigate the effects of
+%    such hazards;
  
-  \item A timeline for attainment of objectives and for production of deliverables
-   that includes annual milestones with specific, measurable outcomes; and
+%   \item A timeline for attainment of objectives and for production of deliverables
+%    that includes annual milestones with specific, measurable outcomes; and
  
-  \item Establishment of a profile on an established professional social networking
-   site to document career progress during and beyond the duration of the
-   Fellowship.
+%   \item Establishment of a profile on an established professional social networking
+%    site to document career progress during and beyond the duration of the
+%    Fellowship.
 
-\end{itemize}
+% \end{itemize}
 
 
 \subsubsection{Objective \#1: Whole Genome Sequencing of 96 \textit{Sclerotinia sclerotiorum} isolates}
 
-A total of eight subpopulations of \textit{S. sclerotiorum} will be gathered from canola fields in the Chinese provinces of Gansu, Qinghai, Anhui, and Hunan \citep{zhou2014dimethachlon} and North America (USA and Mexico) representing four populations from temperate regions (between $40^{\circ}N$ and $40^{\circ}N$ $66^{\circ}N$) and four populations from subtropical regions (between $23.5^{\circ}N$ and $40^{\circ}N$). Whole genomic DNA will be sequenced to >30X depth on Illumina HiSeq 4000 sequencer and deposited in the UNL Attic data storage system. All isolates will be mapped to the \textit{S. sclerotiorum} reference genome \citep{derbyshire2017complete}.
-
+\noindent \textbf{Methods} A total of eight subpopulations of \textit{S. sclerotiorum} will be gathered from canola fields in the Chinese provinces of Gansu, Qinghai, Anhui, and Hunan \citep{zhou2014dimethachlon} and North America (USA and Mexico) representing four populations from temperate regions (between $40^{\circ}N$ and $40^{\circ}N$ $66^{\circ}N$) and four populations from subtropical regions (between $23.5^{\circ}N$ and $40^{\circ}N$). Whole genomic DNA will be sequenced to >30X depth on Illumina HiSeq 4000 sequencer and deposited in the UNL Attic data storage system. All isolates will be mapped to the \textit{S. sclerotiorum} reference genome using a workflow modified from \url{https://github.com/zkamvar/read-processing}, which uses \textsc{Bowtie2} and \textsc{Samtools} to map reads and \textsc{GATK} for variant discovery \citep{langmead2012fast, li2009sequence, mckenna2010genome, derbyshire2017complete}.
+\noindent \textbf{Expectations}
+\noindent \textbf{Pitfalls and Limitations}
 % \subsubsection{Objective \#2: Common Garden Experiment to test for Local Adaptation}
 
 % Isolates of \
 
 \subsubsection{Objective \#2: Assessment of Local Adaptation to Climate}
 
-We will use phylogenetic data from each gene independently to assess the evolutionary history of these populations using \textit{Botrytis cinerea} as an outgroup \citep{staats2012genome}. 
+\noindent \textbf{Methods} We will use phylogenetic data from each gene independently to assess the evolutionary history of these populations using \textit{Botrytis cinerea} as an outgroup \citep{staats2012genome}. 
 To address phylogenetic incongruence, we will use a newly developed multivariate methods for exploring the space of phylogenetic trees across the genome \citep{kendall2016mapping, jombart2017treespace}. 
 Migration rates between populations will be assess using
 Approximate Bayesian Computation with coalescent approaches. We will use \textsc{ABCtoolbox} to assess migration among climate and geographic regions \citep{wegmann2010abctoolbox}. 
 Simulations will be carried out on each gene independently using the \texttt{msprime} simulator \citep{kelleher2016efficient}. 
 Mean nucleotide diversity ($\pi$) and mean number of alleles will be used as summary statistics for evaluating simulations. 
 Partial least squares regression and Euclidean distance to observed data will be utilized as the rejection method.
-
-
-
+\noindent \textbf{Expectations}
+\noindent \textbf{Pitfalls and Limitations}
 \subsubsection{Objective \#3: Development of Workshop on Reproducible Research and Open Science}
 
+\noindent \textbf{Methods} A course will be developed under the supervision of the Peer Review for Teaching Project at UNL (\url{http://peerreview.unl.edu/}). 
+The course philosophy is that the student should not necessarily learn to use specific programs or languages, but to develop thought processes that allow them to adapt to new tools and workflows.
+This course will be split up into three distinct sections, Philosophy of Open Science, Data Management, and Best Practices in Reproducible Research. 
+Each of these three sections will draw from the data, analysis, and lessons learned in objectives 1 and 2.
+\noindent \textbf{Expectations}
+\noindent \textbf{Pitfalls and Limitations}
 
+\noindent \textbf{Hazards}
+\noindent \textbf{Timeline}
 
 \section{Evaluation Plan}
 
@@ -361,10 +369,6 @@ Integrated Project should clearly articulate:
 
 \end{itemize}
 
-
-Test1 \citep{lehner2017independently} 
-Test2 \citep{clarkson2017population}
-Test3 \citep{clarkson2017population}.
 
 % https://tex.stackexchange.com/a/224803/77699
 \newpage
