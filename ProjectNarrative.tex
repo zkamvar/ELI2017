@@ -27,7 +27,7 @@
 % publications, presentations, etc.
 
 
-The proposed research aims to understand the evolutionary history of the plant pathogenic fungus \textit{Sclerotinia sclerotiorum} across continents and climate regions. 
+The proposed research aims to understand local adaptation of the plant pathogenic fungus \textit{Sclerotinia sclerotiorum} across thermal regions. 
 By conducting this research openly, I can use the data and analyses as source materials to create educational activities. 
 These will be focused on the topic of reproducible and open research in genomic data analysis,
 which will be taught as a series of workshops at the University of Nebraska-Lincoln. 
@@ -187,26 +187,25 @@ of the project should be within the 2-year timeframe.
   \label{fig:us-china}
 \end{wrapfigure}
 
-The introduction should include a well-defined problem, a clear statement of
-the long-term goal(s), and supporting objectives of the proposed project.
-Summarize the body of knowledge or other past activities that substantiate the
-need for the proposed project. Describe ongoing or recently completed
-activities related to the proposed project including the work of key project
-personnel. Include preliminary data/information pertinent to the proposed
-work. All works cited should be referenced (see Bibliography \& References
-Cited, see section d. in the AFRI ELI RFA).\\
-\rule{\textwidth}{0.5pt}
-
-\noindent \textbf{Research objectives}
+% The introduction should include a well-defined problem, a clear statement of
+% the long-term goal(s), and supporting objectives of the proposed project.
+% Summarize the body of knowledge or other past activities that substantiate the
+% need for the proposed project. Describe ongoing or recently completed
+% activities related to the proposed project including the work of key project
+% personnel. Include preliminary data/information pertinent to the proposed
+% work. All works cited should be referenced (see Bibliography \& References
+% Cited, see section d. in the AFRI ELI RFA).\\
+% \rule{\textwidth}{0.5pt}
 
 \textit{Sclerotinia sclerotiorum} is a plant pathogenic soil fungus with over 400 hosts worldwide including soybean and canola. 
 Effective management strategies depend on the knowledge of genetic diversity and sexual reproduction.
-Numerous studies over the last 30 years around the world show diversity in subtropical regions, but \cite{lehner2017sclerotinia} shows that this may be an artifact of low resolution genetic markers.
+Numerous studies over the last 30 years around the world show increased diversity in subtropical regions, but \cite{lehner2017sclerotinia} shows that this may be an artifact of low resolution genetic markers.
 Several studies have been conducted either across continental or climate regions, but no studies have addressed if the differences observed between \textit{S. sclerotiorum} populations is due to climate or region. 
 \textbf{The two-pronged goal} of the proposed research is to determine if subtropical regions exhibit more diversity and outcrossing than temperate regions and use the research products to develop a course on reproducible methods for genomic data analysis.
 
 \noindent
 \textbf{Objective \#1:} Perform whole genome sequencing on 96 isolates collected hierarchically over 8 subpopulations in North America and East Asia, respectively (Fig. \ref{fig:us-china}).\\
+% \textbf{Objective \#2:} Perform reciprocal common garden laboratory experiments to evaluate fitness in different thermal environments.\\
 \textbf{Objective \#2:} Using \textit{Botrytis cinerea} as an outgroup, perform phylogeographic and coalescent analyses to determine if divergence is due to climate or geography.\\
 \textbf{Objective \#3:} Use the research products of objectives 1 \& 2 to create educational materials for graduate students that covers topics from
 data validation and curation, method choice, version control, and open data science practices.
@@ -217,6 +216,7 @@ The long-term goals of the research are to \textbf{a)} provide fine-scale knowle
 
 \subsection{Rationale and Significance}
 
+
 \begin{itemize}
   \item Concisely present the rationale behind the proposed project and how it will
   advance the current knowledge in the field;
@@ -225,6 +225,10 @@ The long-term goals of the research are to \textbf{a)} provide fine-scale knowle
   one of the Program Area Priorities. The Program Area Priority(ies) must be
   specifically identified
 \end{itemize}
+
+% connects proposal to purpose of grant program
+% relates proposal to purpose of UNL
+% states need in terms of end users. 
 
 %  AFRI Foundational Priority for....
     % - Plant health and production and plant products;
@@ -239,7 +243,7 @@ The long-term goals of the research are to \textbf{a)} provide fine-scale knowle
 The rationale of the proposed work is twofold: to identify determinants of local adaptation in global populations of \textit{S. sclerotiorum} and to use these data and analyses to create an open lesson plan focused on empowering the next generation of scientists to perform reliable, reproducible research. 
 For over 15 years, population genetic analysis on \textit{S. sclerotiorum} has been performed using the same set of simple sequence repeat (SSR) markers \citep{sirjusingh2001characterization}. 
 These markers, however, are unable to accurately determine the number of unique genotypes in a sample \citep{lehner2017independently,lehner2017sclerotinia,arnaud2007standardizing}.   
-Losses in North Dakota alone due to \textit{S. sclerotiorum} averaged to \$2.95 million per year between the years of 2003 to 2005 \cite{ramasubramaniam2008estimates}. On average, there is an annual loss of 18.5 million bushels of soybean per year \footnote{\url{http://extension.cropsciences.illinois.edu/fieldcrops/diseases/yield_reductions.php}}.
+Losses in North Dakota alone due to \textit{S. sclerotiorum} averaged to \$2.95 million per year between the years of 2003 to 2005 \cite{ramasubramaniam2008estimates}. On average, there is an annual loss of 18.5 million bushels of soybean \footnote{\url{http://extension.cropsciences.illinois.edu/fieldcrops/diseases/yield_reductions.php}}.
 Management practices require knowledge of the determinants of local adaptation. 
 By using whole genome sequencing, we additionally provide a form of data that can easily be reused to answer questions of a broader evolutionary scope not addressed in this proposal. 
 This means that research dollars and work hours that would normally be spent collecting data could be spent analyzing data and training students. 
@@ -295,7 +299,23 @@ section must include:
 
 \subsubsection{Objective \#1: Whole Genome Sequencing of 96 \textit{Sclerotinia sclerotiorum} isolates}
 
-\subsubsection{Objective \#2: Analysis of Evolutionary History of \textit{Sclerotinia sclerotiorum} across continents and climates}
+A total of eight subpopulations of \textit{S. sclerotiorum} will be gathered from canola fields in the Chinese provinces of Gansu, Qinghai, Anhui, and Hunan \citep{zhou2014dimethachlon} and North America (USA and Mexico) representing four populations from temperate regions (between $40^{\circ}N$ and $40^{\circ}N$ $66^{\circ}N$) and four populations from subtropical regions (between $23.5^{\circ}N$ and $40^{\circ}N$). Whole genomic DNA will be sequenced to >30X depth on Illumina HiSeq 4000 sequencer and deposited in the UNL Attic data storage system. All isolates will be mapped to the \textit{S. sclerotiorum} reference genome \citep{derbyshire2017complete}.
+
+% \subsubsection{Objective \#2: Common Garden Experiment to test for Local Adaptation}
+
+% Isolates of \
+
+\subsubsection{Objective \#2: Assessment of Local Adaptation to Climate}
+
+We will use phylogenetic data from each gene independently to assess the evolutionary history of these populations using \textit{Botrytis cinerea} as an outgroup \citep{staats2012genome}. 
+To address phylogenetic incongruence, we will use a newly developed multivariate methods for exploring the space of phylogenetic trees across the genome \citep{kendall2016mapping, jombart2017treespace}. 
+Migration rates between populations will be assess using
+Approximate Bayesian Computation with coalescent approaches. We will use \textsc{ABCtoolbox} to assess migration among climate and geographic regions \citep{wegmann2010abctoolbox}. 
+Simulations will be carried out on each gene independently using the \texttt{msprime} simulator \citep{kelleher2016efficient}. 
+Mean nucleotide diversity ($\pi$) and mean number of alleles will be used as summary statistics for evaluating simulations. 
+Partial least squares regression and Euclidean distance to observed data will be utilized as the rejection method.
+
+
 
 \subsubsection{Objective \#3: Development of Workshop on Reproducible Research and Open Science}
 
