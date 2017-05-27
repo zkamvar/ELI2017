@@ -299,12 +299,18 @@ Open science has long-term broad effects of increased confidence among stakehold
 
 \subsubsection{Objective \#1: Whole Genome Sequencing of 96 \textit{Sclerotinia sclerotiorum} isolates}
 
-\noindent \textbf{Methods} A total of eight subpopulations of \textit{S. sclerotiorum} will be gathered from canola fields in the Chinese provinces of Gansu, Qinghai, Anhui, and Hunan \citep{zhou2014dimethachlon} and North America (USA and Mexico) representing four populations from temperate regions (between $40^{\circ}N$ and $40^{\circ}N$ $66^{\circ}N$) and four populations from subtropical regions (between $23.5^{\circ}N$ and $40^{\circ}N$). Whole genomic DNA will be sequenced to >30X depth on Illumina HiSeq 4000 sequencer and deposited in the UNL Attic data storage system. All isolates will be mapped to the \textit{S. sclerotiorum} reference genome using a workflow modified from \url{https://github.com/zkamvar/read-processing}, which uses \textsc{Bowtie2} and \textsc{Samtools} to map reads and \textsc{GATK} for variant discovery \citep{langmead2012fast, li2009sequence, mckenna2010genome, derbyshire2017complete}.
-\noindent \textbf{Expectations}
-\noindent \textbf{Pitfalls and Limitations}
-% \subsubsection{Objective \#2: Common Garden Experiment to test for Local Adaptation}
-
-% Isolates of \
+\noindent \textbf{Methods for sampling -}
+A total of 96 isolates split evenly across eight subpopulations of \textit{S. sclerotiorum} will be gathered from canola fields in China and the USA representing temperate regions temperate regions (between $40^{\circ}N$ and $66^{\circ}N$) and subtropical regions (between $23.5^{\circ}N$ and $40^{\circ}N$).
+Isolates from China will be random samples from Gansu, Qinghai, Anhui, and Hunan provinces \citep{zhou2014dimethachlon, attanayake2013sclerotinia}.
+Isolates from USA will be from canola fields in North Dakota, Colorado, Georgia, and South Carolina \citep{aldrich-wolfe2015genetic,phillips2002phylogeography}.\\
+\noindent \textbf{Methods for sequencing -} 
+Whole genomic DNA will be sequenced to >15X depth on a single lane of Illumina HiSeq 4000 sequencer and deposited in the UNL Attic data storage system. 
+All isolates will be mapped to the \textit{S. sclerotiorum} reference genome using a workflow modified from \url{https://github.com/zkamvar/read-processing}, which uses \textsc{Bowtie2} and \textsc{Samtools} to map reads and \textsc{GATK} for variant discovery \citep{langmead2012fast, li2009sequence, mckenna2010genome, derbyshire2017complete}.\\ 
+\noindent \textbf{Expectations -}
+Based on preliminary results from sequencing clonal strains of \textit{S. sclerotiorum} after fungicide exposure we expect to see, on average, $\geq98.5\%$ coverage with $\geq8$x depth for all isolates. Because the reference genome of \textit{S. sclerotiorum} is from the US, we additionally expect a greater number of variants in the isolates from China.\\
+\noindent \textbf{Pitfalls and Limitations -}
+If the differentiation due to continent is sufficiently large, our alignments of the isolates from China may not efficiently align to the reference genome. 
+We can monitor this by assessing mapping quality for all alignments and performing de-novo assembly on the isolates.
 
 \subsubsection{Objective \#2: Assessment of Local Adaptation to Climate}
 
@@ -314,17 +320,18 @@ Migration rates between populations will be assess using
 Approximate Bayesian Computation with coalescent approaches. We will use \textsc{ABCtoolbox} to assess migration among climate and geographic regions \citep{wegmann2010abctoolbox}. 
 Simulations will be carried out on each gene independently using the \texttt{msprime} simulator \citep{kelleher2016efficient}. 
 Mean nucleotide diversity ($\pi$) and mean number of alleles will be used as summary statistics for evaluating simulations. 
-Partial least squares regression and Euclidean distance to observed data will be utilized as the rejection method.
-\noindent \textbf{Expectations}
-\noindent \textbf{Pitfalls and Limitations}
+Partial least squares regression and Euclidean distance to observed data will be utilized as the rejection method.\\
+\noindent \textbf{Expectations}\\
+\noindent \textbf{Pitfalls and Limitations}\\
+
 \subsubsection{Objective \#3: Development of Workshop on Reproducible Research and Open Science}
 
 \noindent \textbf{Methods} A course will be developed under the supervision of the Peer Review for Teaching Project at UNL (\url{http://peerreview.unl.edu/}). 
 The course philosophy is that the student should not necessarily learn to use specific programs or languages, but to develop thought processes that allow them to adapt to new tools and workflows.
 This course will be split up into three distinct sections, Philosophy of Open Science, Data Management, and Best Practices in Reproducible Research. 
-Each of these three sections will draw from the data, analysis, and lessons learned in objectives 1 and 2.
-\noindent \textbf{Expectations}
-\noindent \textbf{Pitfalls and Limitations}
+Each of these three sections will draw from the data, analysis, and lessons learned in objectives 1 and 2.\\
+\noindent \textbf{Expectations}\\
+\noindent \textbf{Pitfalls and Limitations}\\
 
 \noindent \textbf{Hazards}
 \noindent \textbf{Timeline}
