@@ -217,14 +217,14 @@ The long-term goals of the research are to \textbf{a)} provide fine-scale knowle
 \subsection{Rationale and Significance}
 
 
-\begin{itemize}
-  \item Concisely present the rationale behind the proposed project and how it will
-  advance the current knowledge in the field;
+% \begin{itemize}
+%   \item Concisely present the rationale behind the proposed project and how it will
+%   advance the current knowledge in the field;
 
-  \item Clearly describe the specific relationship of the project's objectives to
-  one of the Program Area Priorities. The Program Area Priority(ies) must be
-  specifically identified
-\end{itemize}
+%   \item Clearly describe the specific relationship of the project's objectives to
+%   one of the Program Area Priorities. The Program Area Priority(ies) must be
+%   specifically identified
+% \end{itemize}
 
 % connects proposal to purpose of grant program
 % relates proposal to purpose of UNL
@@ -240,19 +240,18 @@ The long-term goals of the research are to \textbf{a)} provide fine-scale knowle
 
 \textbf{AFRI Foundational Priority for Plant Health and Production and Plant Products}
 
-The rationale of the proposed work is that 1) the identification of patterns for adaptation in \textit{S. sclerotiorum} will reduce inputs by influencing management decisions regarding movement of inoculum, 2) genomic data and analyses from 96 isolates of \textit{S. sclerotiorum} will help drive novel research on this cosmopolitan pathogen, and 3) producing educational materials on open and reproducible research will have long-term benefits for agricultural research by increasing access to eduction and emphasize practices that will positively influence stakeholder confidence and provide a wealth of knowledge from open future data and materials. 
+The rationale of the proposed work is that 1) the identification of patterns for adaptation in \textit{S. sclerotiorum} will reduce inputs by influencing management decisions regarding movement of inoculum, 2) genomic data and analyses from 96 isolates of \textit{S. sclerotiorum} will help drive novel research on this cosmopolitan pathogen, and 3) producing educational materials on open and reproducible research will have long-term benefits for agricultural research by increasing access to eduction and emphasizing practices that will positively influence stakeholder confidence and provide a wealth of knowledge from open future data and materials. 
 
+Canola production is a growing industry in the United States, producing 3 billion pounds of seed grossing at \$500 million in 2016 \citep{usda2017production, usda2017values}. Losses due to Sclerotinia Stem Rot are estimated to be 1\% yield for every 2\% disease incidence \citep{delrio2007impact}, and the midwest has seen an average incidence rate of 13\% \citep{markell2009sclerotinia}, which would mean an annual loss of \$30 million. 
+It is known that local climate can exacerbate the spread of inoculum and thus, understanding the evolutionary potential for \textit{S. sclerotiorum} to adapt to a warming climate is essential for targeting future management decisions [citation needed].
 
 For over 15 years, population genetic analysis on \textit{S. sclerotiorum} has been performed using the same set of simple sequence repeat (SSR) markers \citep{sirjusingh2001characterization}. 
-These markers, however, are unable to accurately determine the number of unique genotypes in a sample \citep{lehner2017independently, lehner2017sclerotinia,arnaud2007standardizing}.
-Losses in North Dakota alone due to \textit{S. sclerotiorum} averaged to \$2.95 million per year between the years of 2003 to 2005 \citep{ramasubramaniam2008estimates}. On average, there is an annual loss of 18.5 million bushels of soybean \footnote{\url{http://extension.cropsciences.illinois.edu/fieldcrops/diseases/yield_reductions.php}}.
-Management practices require knowledge of the determinants of local adaptation. 
-By using whole genome sequencing, we additionally provide a form of data that can easily be reused to answer questions of a broader evolutionary scope not addressed in this proposal. 
-This means that research dollars and work hours that would normally be spent collecting data could be spent analyzing data and training students. 
-The educational component of this project is aimed explicitly at training graduate students seeking masters or doctoral degrees on how to perform open and reproducible research. 
-By crafting and automating the data validation and statistical analyses, researchers can focus more energy on ensuring that the methods they use are appropriate and the results they produce are correct. 
-Open science has long-term broad effects of increased confidence among stakeholders. 
+These markers, however, have been unable to accurately determine the number of unique genotypes in a sample \citep{lehner2017independently, lehner2017sclerotinia,arnaud2007standardizing}.
+Moreover, these markers may suffer from confirmation bias, only able to describe the diversity of \textit{S. sclerotiorum} in the Midwestern United States \citep{attanayake2013sclerotinia}. 
+Using whole genome sequences of representative isolates across continents allows us to capture a breadth of diversity, giving us a clear picture of the adaptive potential in \textit{S. sclerotiorum} \citep{grunwald2016population}.
 
+The practice of open and reproducible research has been shown to increase the speed and accuracy of which scientific research is conducted \citep{stewart-lowndes2017path, wilson2016good}.
+By training graduate students seeking masters or doctoral degrees on how to perform open and reproducible research, future agricultural science will be cost effective, innovative, and engaging. 
 
 % Educational components must address one or two of the following key
 % strategic actions:
@@ -316,27 +315,33 @@ We can monitor this by assessing mapping quality for all alignments and performi
 
 \subsubsection{Objective \#2: Assessment of Local Adaptation to Climate}
 
-\noindent \textbf{Methods} We will use phylogenetic data from each gene independently to assess the evolutionary history of these populations using \textit{Botrytis cinerea} as an outgroup \citep{staats2012genome}. 
+\noindent \textbf{Methods -} We will use phylogenetic data from each gene independently to assess the evolutionary history of these populations using \textit{Botrytis cinerea} as an outgroup \citep{staats2012genome}. 
 To address phylogenetic incongruence, we will use a newly developed multivariate methods for exploring the space of phylogenetic trees across the genome \citep{kendall2016mapping, jombart2017treespace}. 
+Adaptive potential will be assessed using ratios of synonymous and non-synonymous mutation rates, classifying them into positive, neutral, or negative selection, and comparing them to classes of tree topologies (geo-centric, climate-centric, or random) via $\Chi^2$ test.
 Migration rates between populations will be assess using
 Approximate Bayesian Computation with coalescent approaches. We will use \textsc{ABCtoolbox} to assess migration among climate and geographic regions \citep{wegmann2010abctoolbox}. 
 Simulations will be carried out on each gene independently using the \texttt{msprime} simulator \citep{kelleher2016efficient}. 
 Mean nucleotide diversity ($\pi$) and mean number of alleles will be used as summary statistics for evaluating simulations. 
 Partial least squares regression and Euclidean distance to observed data will be utilized as the rejection method.\\
-\noindent \textbf{Expectations}\\
-\noindent \textbf{Pitfalls and Limitations}\\
+\noindent \textbf{Expectations -}
+Based on initial data from \citet{attanayake2013sclerotinia}, I expect a majority of genes will segregate for geographic differentiation, but I predict that the majority of the positive selection will be found in the climate-centric genes, whereas the others will be majority neutral.\\
+\noindent \textbf{Pitfalls and Limitations -}
+If the samples are not true representatives of their populations, there exists a possibility for false positives for a signature of adaptation to climate.\\
 
-\subsubsection{Objective \#3: Development of Workshop on Reproducible Research and Open Science}
+\subsubsection{Objective \#3: Development of Education Modules on Open and Reproducible Research}
 
-\noindent \textbf{Methods} A course will be developed under the supervision of the Peer Review for Teaching Project at UNL (\url{http://peerreview.unl.edu/}). 
+\noindent \textbf{Methods -} A course will be developed under the supervision of the Peer Review for Teaching Project at UNL (\url{http://peerreview.unl.edu/}). 
 The course philosophy is that the student should not necessarily learn to use specific programs or languages, but to develop thought processes that allow them to adapt to new tools and workflows.
-This course will be split up into three distinct sections, Philosophy of Open Science, Data Management, and Best Practices in Reproducible Research. 
+This course will be split up into four distinct sections, Philosophy of Open Science, Data Management, Best Practices in Reproducible Research, and Research Dissemination. 
 Each of these three sections will draw from the data, analysis, and lessons learned in objectives 1 and 2.\\
-\noindent \textbf{Expectations}\\
-\noindent \textbf{Pitfalls and Limitations}\\
+\noindent \textbf{Expectations -}
+I expect for the students to have a grasp of the overall philosophy and benefits of open and reproducible research.\\
+\noindent \textbf{Pitfalls and Limitations -}
+These students will likely be a self-selected group of students who are already interested in reproducible research, which would not necessarily beget any change in the field. To correct for this, I will design advertisements targeted at students from both applied and basic scientific research.\\
 
-\noindent \textbf{Hazards}
-\noindent \textbf{Timeline}
+\noindent \textbf{Hazards -} No known hazards are associated with this project.
+
+\noindent \textbf{Timeline - }
 
 \section{Evaluation Plan}
 
