@@ -13,8 +13,14 @@ TARGETS := packet/LogicModel.pdf \
 
 all : $(TARGETS)
 
+.PHONY : dots
+dots : figure/rr.pdf
+
 packet/%.pdf : %.tex config.tex ELI.bib
 	-latexmk -xelatex -quiet -r .latexmkrc $<
+
+figure/%.pdf : figure/%.dot
+	dot -Tpdf -o $@ $<
 
 # The bibliography must be separate. It depends on the rendering of the
 # ProjectNarrative to get it in the correct order

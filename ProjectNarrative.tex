@@ -29,17 +29,16 @@
 
 The proposed research aims to understand local adaptation of the plant pathogenic fungus \textit{Sclerotinia sclerotiorum} across thermal regions. 
 By conducting this research openly, I can use the data and analyses as source materials to create educational activities. 
-These will be focused on the topic of reproducible and open research in genomic data analysis,
-which will be taught as a series of workshops at the University of Nebraska-Lincoln. 
-A summary of the course will additionally be published in the
-journal \textit{Plant Health Instructor}. 
+These will be focused on the topic of reproducible and open research in genomic data analysis, which will be taught as a series of workshops at the University of Nebraska-Lincoln. 
+A summary of the course will additionally be published in the journal \textit{Plant Health Instructor}. 
 \textbf{My overall goals for this fellowship are to develop my skills in education and genomic-scale research.} 
-
 
 \subsection{Research Training}
 
 Broadly, my current research focuses on understanding the population dynamics and evolutionary processes governing the clonally-reproducing fungal pathogen \textit{S. scleroitoriorum}.
-However, I do not have substantial experience performing large-scale genomic data analysis. \textbf{The goal of research training} is to compliment my skills as a data scientist with the tools and techniques necessary for evolutionary genomic data analysis. 
+I use reproducible research practices for data analysis, but my research has largely been focused on microsatellite data.
+I do not have substantial experience performing large-scale genomic data analysis. 
+\textbf{The goal of research training} is to compliment my skills as a data scientist with the tools and techniques necessary for evolutionary genomic data analysis. 
 
 \begin{itemize}
   \item \textbf{Background Training In: } population genetics, evolution, molecular techniques, microbiological techniques, and R programming
@@ -87,7 +86,7 @@ I have experience teaching short, 3 hour workshops, but don't have formal traini
 \subsection{Career Development Plan}
 
 \begin{enumerate}
-  \item \textbf{Professional Development} will be ...
+  \item \textbf{Professional Development} in writing grant proposals with mentor guidance, providing peer-reviews of manuscripts, participating in hiring, managing and mentoring students in the lab, attending and presenting at the American Phytopathological Society annual meeting and the biannual Fungal Genetics Conference, the Plant & Animal Genome Meeting, with participation in career development workshops at annual meetings. 
 \end{enumerate}
 
 
@@ -173,7 +172,6 @@ describing the role of the mentor, the applicant should:
 %   \label{fig:us-china}
 % \end{figure}
 
-
 % \begin{SCfigure}[][htbp]
 %   \centering
 %   \includegraphics[width=0.35\textwidth]{figure/us-china.pdf}
@@ -181,11 +179,15 @@ describing the role of the mentor, the applicant should:
 %   \label{fig:us-china}
 % \end{SCfigure}
 
+
+
 \begin{wrapfigure}[]{R}[]{0pt} % [lineheight]{position}[overhang]{width}
   \includegraphics[width=0.35\textwidth]{figure/us-china.pdf}
   \caption{A hypothesis of the evolutionary history of \textit{S. slcerotiorum} in temparate and subtropical regions between North America and East Asia}
   \label{fig:us-china}
 \end{wrapfigure}
+
+
 
 % The introduction should include a well-defined problem, a clear statement of
 % the long-term goal(s), and supporting objectives of the proposed project.
@@ -203,12 +205,20 @@ Numerous studies over the last 30 years around the world show increased diversit
 Several studies have been conducted either across continental or climate regions, but no studies have addressed if the differences observed between \textit{S. sclerotiorum} populations is due to climate or region. 
 \textbf{The two-pronged goal} of the proposed research is to determine if subtropical regions exhibit more diversity and outcrossing than temperate regions and use the research products to develop a course on reproducible methods for genomic data analysis.
 
-\noindent
+
+\begin{wrapfigure}[]{l}[]{0pt}
+  \includegraphics[width=0.35\textwidth]{figure/rr.pdf}
+  \caption{An automated reproducible research workflow}
+  \label{fig:rr}
+\end{wrapfigure}
+
+As genomic and microbiome data becomes more readily available, scientists with very little background in bioinformatics are conducting studies with no knowledge of how to process their data, which could lead to error-prone invented methods of data processing \citep{stewart-lowndes2017path}. 
+There are many benefits to reproducible research \citep{mckiernan2016open,stewart-lowndes2017path}.\\
 \textbf{Objective \#1:} Perform whole genome sequencing on 96 isolates collected hierarchically over 8 subpopulations in North America and East Asia, respectively (Fig. \ref{fig:us-china}).\\
 % \textbf{Objective \#2:} Perform reciprocal common garden laboratory experiments to evaluate fitness in different thermal environments.\\
 \textbf{Objective \#2:} Using \textit{Botrytis cinerea} as an outgroup, perform phylogeographic and coalescent analyses to determine if divergence is due to climate or geography.\\
 \textbf{Objective \#3:} Use the research products of objectives 1 \& 2 to create educational materials for graduate students that covers topics from
-data validation and curation, method choice, version control, and open data science practices.
+data validation and curation, method choice, version control, and open data science practices (Fig. \ref{fig:rr}).
 
 We plan to infer genetic diversity, migration patterns, and outcrossing with modern, reproducible population genetic and phylogeographic approaches on whole genome sequence data. 
 

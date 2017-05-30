@@ -1,0 +1,38 @@
+digraph {
+
+    node[shape="box", style="rounded", penwidth = 2]
+        processed_data; results; publication;
+    node[shape = "box", style = "", penwidth = 2]
+        code1; code2; code3;
+    node[shape = "diamond", style = "", penwidth = 2]
+        data;
+    node[shape = "none", width = 0, height = 0, label = ""]
+        p1; p2; p3;
+
+    
+    data -> p1[arrowhead=none];
+    code1 -> p1;
+    p1 -> processed_data;
+
+    processed_data -> p2[arrowhead=none];
+    code2 -> p2;
+    p2 -> results;
+    
+    results -> p3[arrowhead=none];
+    code3 -> p3;
+    p3 -> publication;
+ 
+    data[label = "Raw Data"]
+    processed_data[label="Processed Data"]
+    results[label="Results"]
+    publication[label = "Publication"]
+
+    code1[label = "Data Cleaning\nScript"];
+    code2[label = "Analysis\nScript"];
+    code3[label = "Manuscript"];
+
+    {rank = "same"; code1, p1}
+    {rank = "same"; code2, p2}
+    {rank = "same"; code3, p3}
+
+}
