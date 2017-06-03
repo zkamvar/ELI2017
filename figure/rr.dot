@@ -1,10 +1,10 @@
 digraph {
-
-    node[shape="box", style="rounded", penwidth = 2]
+    margin = 0
+    node[shape="ellipse", penwidth = 2, style = "filled", fillcolor = "#fefdfa", color = "#109dc0"]
         processed_data; results; publication;
-    node[shape = "box", style = "", penwidth = 2]
+    node[shape = "box", penwidth = 2, width = 1.35, style = "filled", fillcolor = "#f5f1e7", color = "#00b098"]
         code1; code2; code3;
-    node[shape = "diamond", style = "", penwidth = 2]
+    node[shape = "diamond", penwidth = 2, style = "filled", fillcolor = "#f5f1e7", color = "#fdb71a"]
         data;
     node[shape = "none", width = 0, height = 0, label = ""]
         p1; p2; p3;
