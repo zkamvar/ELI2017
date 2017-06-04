@@ -182,27 +182,32 @@ While major journals are beginning to implement tools to indicate reproducibilit
 
 The results produced from agricultural sciences often has a direct effect on the stakeholders, and it is thus imperative that the results are replicable. 
 As genomic and microbiome data becomes more readily available, scientists with very little background in bioinformatics are conducting studies with no knowledge of how to process their data \citep{stewart-lowndes2017path, barone2017unmet}. 
-To address the need for training on reproducible research and bioinformatics, \textbf{the long term goals} of the proposed research are \textbf{a)} to develop a course on reproducible research for students in agricultural sciences using real-world examples and \textbf{b)} create an open and reproducible example of genomic research. The second part will be carried out by \textit{testing the hypothesis} that the plant pathogenic fungus, \textit{Sclerotinia sclerotiorum} is locally adapted to climate within continents.\\
+To address the need for training on reproducible research and bioinformatics, \textbf{the long term goals} of the proposed research are \textbf{a)} to develop a course on reproducible research for students in agricultural sciences using real-world examples and \textbf{b)} create an open and reproducible example of genomic research. The second part will be carried out by \textit{testing the hypothesis} that, due to increased generational times, the plant pathogenic fungus, \textit{Sclerotinia sclerotiorum} is locally adapted to subtropical climates.\\
 \textbf{Objective \#1:} Create educational materials for graduate students using agricultural data, covering topics from data validation and curation, method choice, version control, and open data science practices (Fig. \ref{fig:rr-def}, \ref{fig:rr}).\\
 \textbf{Objective \#2:} Perform whole genome sequencing on 96 isolates of \textit{S. sclerotiorum} collected hierarchically over 8 subpopulations in North America and East Asia, respectively (Fig. \ref{fig:us-china}).\\
 \textbf{Objective \#3:} Perform population genetic, phylogeographic, and coalescent analyses to detect and test signatures of local adaptation to climate regions.\\
 \textbf{Objective \#4:} Lead a semester-long special topics course on reproducible research in the department of Plant Pathology at the University of Nebraska-Lincoln.
 
 \textit{Sclerotinia sclerotiorum} (Ascomycota) is a cosmopolitan, haploid, plant pathogenic soil fungus with over 400 hosts worldwide \citep{bolton2006sclerotinia} and causes up to \$252M in losses per year on sunflower, soybeans, dry edible beans, canola, and pulse crops \citep{uscanola}.
-Effective management strategies for any fungal pathogen depends on the knowledge of genetic diversity and adaptive potential \citep{grunwald2016population}.
-Numerous population genetic studies have been performed on \textit{S. sclerotiorum} in the past 30 years assessing differentiation between host, locale, and infected tissue type \citep{bolton2006sclerotinia,lehner2017sclerotinia}. There is little evidence that populations significantly differentiate over time 
+Reproduction is largely asexual, but outcrossing has been known to occur \citep{bolton2006sclerotinia,attanayake2014inferring}. 
+This fungus can survive for several years in the soil in the form of melanized sclerotia (Fig. \ref{fig:sclerotia}) \citep{bolton2006sclerotinia}.
+Due to its wide host range and necrotrophism, management of this pathogen largely involves fungicide applications and, to a lesser extent, resistant cultivars \citep{bolton2006sclerotinia}.
+Effective management strategies for any fungal pathogen depends on the knowledge of genetic diversity and adaptive potential \citep{grunwald2016population}. 
 
-Significant levels of differentiation have been found between populations on canola in the United States (US) and China \citep{attanayake2013sclerotinia}, but these arise from different climate regions. 
-
-
+\citet{carbone2001microbial} hypothesized that \textit{S. sclerotiorum} may be adapted to specific ecological conditions.
 Numerous studies over the last 30 years around the world show increased diversity in subtropical regions, but \citet{lehner2017sclerotinia} show that this may be an artifact of low resolution genetic markers.
-Several studies have been conducted either across continental or climate regions, but no studies have addressed if the differences observed between \textit{S. sclerotiorum} populations is due to climate or region. 
+In the past 30 years, studies have been conducted either across continental or climate regions, but no studies have addressed if the differences observed between \textit{S. sclerotiorum} populations is due to climate or region.
 
+\begin{SCfigure}[][t]
+  \centering
+  \includegraphics[width=0.5\textwidth]{figure/sclerotia.jpg}
+  \caption{Sclerotia of \textit{S. sclerotiorum} (left). Sclerotia can germinate producing apothecia. Ascospores from apothecia serve as primary inoculum. Image and description modified from L. Del Rio Mendoza (\url{https://www.ag.ndsu.edu/sclerotinia/pictures.html})}
+  \label{fig:sclerotia}
+\end{SCfigure}
 
-We plan to infer genetic diversity, migration patterns, and outcrossing with modern, reproducible population genetic and phylogeographic approaches on whole genome sequence data. 
-
-
-
+As \textit{S. sclerotiorum} occurs globally, it is important to know if populations are adapted to thermal gradients, which could affect dispersal under warming climate conditions \citep{bolton2006sclerotinia,lehner2017sclerotinia,croll2016genetic}.
+Significant levels of differentiation have been found between populations on canola in the United States (US) and China \citep{attanayake2013sclerotinia}, but these populations occur in different climate regions.
+To test the hypothesis of local adaptation to thermal environments, we plan to infer genetic diversity, and migration patterns with modern, reproducible population genetic and phylogeographic approaches on whole genome sequence data. 
 
 
 \subsection{Rationale and Significance}
@@ -211,7 +216,10 @@ We plan to infer genetic diversity, migration patterns, and outcrossing with mod
 \noindent
 \textbf{AFRI Foundational Priority for Plant Health and Production and Plant Products}
 
-The rationale of the proposed work is that 1) the identification of patterns for adaptation in \textit{S. sclerotiorum} will reduce inputs by influencing management decisions regarding movement of inoculum, 2) genomic data and analyses from 96 isolates of \textit{S. sclerotiorum} will help drive novel research on this cosmopolitan pathogen, and 3) producing educational materials on open and reproducible research will have long-term benefits for agricultural research by increasing access to eduction and emphasizing practices that will positively influence stakeholder confidence and provide a wealth of knowledge from open future data and materials. 
+The rationale of the proposed work is that 
+\textbf{1)} producing educational materials on open and reproducible research will have long-term benefits for agricultural research by increasing access to eduction and emphasizing practices that will positively influence stakeholder confidence and provide a wealth of knowledge from open future data and materials, 
+\textbf{2)} the identification of patterns for adaptation in \textit{S. sclerotiorum} will reduce inputs by influencing management decisions regarding movement of inoculum, and 
+\textbf{3)} genomic data and analyses from 96 isolates of \textit{S. sclerotiorum} will help drive novel research on this cosmopolitan pathogen. 
 
 The practice of open and reproducible research has been shown to increase the speed and accuracy of which scientific research is conducted \citep{stewart-lowndes2017path, wilson2016good}.
 Surveys conducted in 2016 showed that 90\% of researchers acknowledge a reproducibility crisis in science \citep{baker2016scientists} and that the most pressing need is for training on data management and integration \citep{barone2017unmet}. 
@@ -286,12 +294,6 @@ GitHub currently allows open source projects to be hosted free of charge, but si
 
 \subsubsection{Objective \#2: Whole Genome Sequencing of 96 \textit{Sclerotinia sclerotiorum} isolates}
 
-\begin{wrapfigure}[]{l}[]{0pt} % [lineheight]{position}[overhang]{width}
-  \includegraphics[width=0.35\textwidth]{figure/us-china.pdf}
-  \caption{A hypothesis of the evolutionary history of \textit{S. slcerotiorum} in temparate and subtropical regions between North America and East Asia}
-  \label{fig:us-china}
-\end{wrapfigure}
-
 \noindent \textbf{Sampling and Experimental Design -}
 A total of 96 isolates split evenly across eight subpopulations of \textit{S. sclerotiorum} will be gathered from canola fields in China and the USA representing temperate regions temperate regions (between $40^{\circ}N$ and $66^{\circ}N$) and subtropical regions (between $23.5^{\circ}N$ and $40^{\circ}N$) (Fig. \ref{fig:us-china}).
 Isolates from China will be random samples from Gansu, Qinghai, Anhui, and Hunan provinces originating from \citet{zhou2014dimethachlon} and \citet{attanayake2013sclerotinia}.
@@ -299,6 +301,11 @@ Isolates from USA will be from canola fields in North Dakota, Colorado, Georgia,
 Prior to DNA extraction, all isolates will be grown on Potato Dextrose Agar (PDA) for 5 days at $24^{\circ}C$ and transferring four 8mm plugs to an 100mL liquid PDA with shaking for four days at $24^{\circ}C$ as performed in \citet{derbyshire2017complete}.\\
 \noindent \textbf{DNA Extraction -}
 Mycelia will be collected via vacuum filtration, discarding agar plugs. Tissue will be homogenized using liquid nitrogen in sterile mortar and pestles stored $-80^{\circ}C$. Extraction will be performed using the DNA Plant Maxi Kit (Qiagen) following manufacturer's instructions yielding into 1mL sterile Milli-Q Water (Millipore). Final DNA concentration will be checked using the Qubit Fluorametric quantification system (ThermoFisher) and quality will be assessed via 1\% gel electrophoresis. DNA will be stored at $-80^{\circ}C$.\\
+\begin{wrapfigure}[16]{l}[]{0pt} % [lineheight]{position}[overhang]{width}
+  \includegraphics[width=0.35\textwidth]{figure/us-china.pdf}
+  \caption{A hypothesis of the evolutionary history of \textit{S. slcerotiorum} in temparate and subtropical regions between North America and East Asia}
+  \label{fig:us-china}
+\end{wrapfigure}
 \noindent \textbf{Genome Sequencing and Alignment -} 
 Whole genomic DNA will be sent to the Beijing Genomics Institute (BGI) for Illumina (Illumina inc.) library preparation of 150bp paired-end libraries and sequencing. Libraries will be sequenced to >15X depth with samples from all populations evenly split on two lanes of Illumina HiSeq 4000 sequencer.
 Data will be downloaded from BGI, validated by checking the MD5 hash sums, and read-only copies will be uploaded to UNL's Attic storage system and the Open Science Framework. 
