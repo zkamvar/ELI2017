@@ -34,7 +34,7 @@ packet/BibliographyReferencesCited.pdf : BibliographyReferencesCited.tex \
 	pandoc -t latex --latex-engine=xelatex -o $@ $<
 
 %.docx : %.tex
-	pandoc -t docx --reference-docx $*-template.docx --latex-engine=xelatex -o $@ $<
+	pandoc -t docx --latex-engine=xelatex -o $@ $<
 
 clean : $(TARGETS)
 	latexmk -c -r .latexmkrc
