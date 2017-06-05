@@ -9,3 +9,5 @@ packet/*.pdf
 packet/*.run.xml
 packet/*_biber.bib
 packet/*.out
+packet/*.docx
+
