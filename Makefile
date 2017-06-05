@@ -1,11 +1,11 @@
 TARGETS := packet/LogicModel.pdf \
 	packet/BiographicalSketch.pdf \
 	packet/ProjectSummary.pdf \
-	packet/timeline.pdf \
 	packet/ProjectNarrative.pdf \
 	packet/BibliographyReferencesCited.pdf \
 	packet/FacilitiesOtherResources.pdf \
 	packet/Equipment.pdf \
+	packet/KeyPersonnel.pdf \
 	packet/BudgetJustification.pdf \
 	packet/ConflictOfInterest.pdf \
 	packet/ManagementPlan.pdf \
