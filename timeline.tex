@@ -5,6 +5,9 @@
 
 \definecolor{barblue}{RGB}{153,204,254}
 \definecolor{groupblue}{RGB}{51,102,254}
+\definecolor{unlred}{RGB}{208,0,0}
+\definecolor{unlcream}{RGB}{254, 253, 250}
+\definecolor{unlblue}{RGB}{19,124,189}
 \definecolor{linkred}{RGB}{165,0,33}
 \renewcommand\sfdefault{phv}
 \renewcommand\mddefault{mc}
@@ -15,7 +18,7 @@
 \sffamily
 
 \begin{ganttchart}[
-    canvas/.append style={fill=none, draw=black!5, line width=.75pt},
+    canvas/.append style={fill=unlcream, draw=black!5, line width=.75pt},
     hgrid style/.style={draw=black!5, line width=.75pt},
     vgrid={*1{draw=black!5, line width=.75pt}},
     y unit chart = 0.5cm, % https://tex.stackexchange.com/a/162693/77699
@@ -26,17 +29,17 @@
     bar height = .125,
     bar label font=\mdseries\small\color{black!70},
     bar label node/.append style={left=.3cm},
-    bar/.append style={draw=none, fill=black!63},
+    bar/.append style={draw=none, fill=black},
     bar incomplete/.append style={fill=barblue},
     bar progress label font=\mdseries\footnotesize\color{black!70},
-    group incomplete/.append style={fill=groupblue},
+    group incomplete/.append style={fill=unlred},
     group left shift=0,
     group right shift=0,
     group height=.25,
     group peaks tip position=0,
     group label node/.append style={left=.3cm},
     group progress label font=\bfseries\small,
-    link/.style={-latex, line width=1.5pt, linkred},
+    link/.style={-latex, line width=1.5pt, unlblue},
     link label font=\scriptsize\bfseries,
     link label node/.append style={below left=-2pt and 0pt}
   ]{1}{24}
