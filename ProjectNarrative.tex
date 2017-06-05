@@ -2,6 +2,7 @@
 \documentclass[12pt,letterpaper]{article}
 \usepackage{atbegshi}
 \usepackage{lipsum}
+\usepackage{pgfgantt}
 
 \input{config.tex}
 
@@ -92,7 +93,7 @@ I have experience teaching short, 3 hour workshops, but don't have formal traini
 
 \begin{enumerate}
   \item \textbf{Workshop training} will be provided by Data Carpentry. In my first year, I aim to complete instructor training and certification.
-  \item \textbf{Northstar Summer Institute for Scientific Teaching:} This workshop in Twin Cities, MN will cover tools and techniques for scientific teaching. These include modes of assessment, backward design, creating and sustaining inclusive environments, the use of current education literature for course improvement.
+  \item \textbf{Northstar Northstar Summer Institute Institute for Scientific Teaching:} This workshop in Twin Cities, MN will cover tools and techniques for scientific teaching. These include modes of assessment, backward design, creating and sustaining inclusive environments, the use of current education literature for course improvement.
   \item \textbf{Course Development:} Development of the reproducible research course will begin immediately by defining public data sets to use as examples and developing basic materials for reproducible research.
   \item \textbf{Special Topics Course in Plant Pathology at UNL:} I will create a three credit-hour special topics course about reproducible research. This will be held in the department of Plant Pathology and offered to anyone in the agricultural sciences. 
 \end{enumerate}
@@ -164,9 +165,6 @@ describing the role of the mentor, the applicant should:
 
 \section{Project Plan}
 
-
-
-
 \subsection{Introduction}
 
 \begin{wrapfigure}[29]{R}[]{0pt} % 8 if hanging on new page
@@ -177,9 +175,11 @@ describing the role of the mentor, the applicant should:
 
 Reproducible research is simple to understand. 
 If you can recreate the results of a study using the same data and analyses, then it is reproducible (Fig. \ref{fig:rr-def}) \citep{buckheit1995wavelab,peng2011reproducible,patil2016statistical}. 
-Moreover, if the data and analyses are openly available, then there  are many benefits for scientists including increased citation counts, funding opportunities, and collaborations \citep{mckiernan2016open,stewart-lowndes2017path,schmidt2016stepping}.
-With these benefits, it surprising that the biomedical sciences are currently experiencing a ``reproducibility crisis'' with reports of up to 50\% of surveyed researchers unable to reproduce their own results \citep{baker2016scientists}.
-While major journals are beginning to implement tools to indicate reproducibility, \textbf{there is still a need for educational resources on reproducibility across biological science disciplines} \citep{nature2017announcement, barone2017unmet}.
+In theory, all scientific research should be reproducible, but in practice, this is not always the case.
+A recent survey \citep{baker2016scientists} revealed that up to 50\% of researchers were unable to reproduce their own published results and that >80\% agreed that there was a ``reproducibility crisis''.
+Despite major journals taking steps to implement incentives for transparency \citep{nature2017announcement}, \textbf{there is still a need for training on reproducibility across biological science disciplines} \citep{barone2017unmet}.
+In the last decade, computational tools have become available that make reproducibility more accessible \citep{boettiger2015introduction,wilson2016good}.
+Moreover, here  are many benefits for scientists to adopt open and reproducible methods including increased citation counts, funding opportunities, and collaborations \citep{mckiernan2016open,stewart-lowndes2017path,schmidt2016stepping}.
 
 The results produced from agricultural sciences often has a direct effect on the stakeholders, and it is thus imperative that the results are replicable. 
 As genomic and microbiome data becomes more readily available, scientists with very little background in bioinformatics are conducting studies with no knowledge of how to process their data \citep{stewart-lowndes2017path, barone2017unmet}. 
@@ -322,7 +322,7 @@ We can monitor this by assessing mapping quality for all alignments and performi
 \noindent \textbf{Methods -} 
 We will use phylogenetic data from each gene independently to assess the evolutionary history of these populations using \textit{Botrytis cinerea} as an outgroup \citep{staats2012genome}. 
 To address phylogenetic incongruence, we will use a newly developed multivariate methods for exploring the space of phylogenetic trees across the genome \citep{kendall2016mapping, jombart2017treespace}. 
-Adaptive potential will be assessed using ratios of synonymous and non-synonymous mutation rates, classifying them into positive, neutral, or negative selection, and comparing them to classes of tree topologies (geo-centric, climate-centric, or random) via $\Chi^2$ test.
+Adaptive potential will be assessed using ratios of synonymous and non-synonymous mutation rates, classifying them into positive, neutral, or negative selection, and comparing them to classes of tree topologies (geo-centric, climate-centric, or random) via $\chi^2$ test.
 Migration rates between populations will be assess using Approximate Bayesian Computation with coalescent simulations. 
 To assess migration among climate and geographic regions, we will use \textsc{ABCtoolbox} \citep{wegmann2010abctoolbox}. 
 Simulations will be carried out on each gene independently using the \texttt{msprime} simulator \citep{kelleher2016efficient}. 
@@ -356,7 +356,13 @@ To avoid this, advertisements will be tailored to specific departments and will 
 
 \noindent \textbf{Hazards -} No known hazards are associated with this project.
 
-\noindent \textbf{Timeline - }
+\begin{figure}[!htbp]
+  \centering
+  \includegraphics[width=0.95\textwidth]{packet/timeline.pdf}
+  \caption{Project Timeline}
+  \label{fig:timeline}
+\end{figure}
+
 
 % ------------------------------------------------------------------------------
 
