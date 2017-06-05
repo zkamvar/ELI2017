@@ -47,8 +47,9 @@
              ]{Reproducible Research Course}{1}{24} \\
   \ganttbar[name=currdev]{Curriculum Development}{1}{12} \\
   \ganttbar[name=tw]{Northstar Summer Institute}{2}{2.5} \\
-  \ganttbar[name=teach]{Teaching}{13}{17}\\
-  \ganttbar[name=eval]{Evaluation}{18}{20}\\
+  \ganttbar[name=cadv]{Advertising/Website Development}{10}{15}\\
+  \ganttbar[name=teach]{Teaching}{16}{20}\\
+  \ganttbar[name=eval]{Evaluation}{21}{22}\\
   \ganttbar[name=mansub]{Manuscript Preparation and Submission}{21}{24}\\
   \ganttgroup[progress=0, 
               progress label text={}
@@ -59,9 +60,8 @@
   \ganttbar[name=assvar]{Assembly and Data Processing}{7}{7.5}\\
   \ganttbar[name=analysis]{Population Genetic Analysis}{8}{12}\\
   \ganttbar[name=manprep]{Manuscript Preparation and Submission}{13}{19}
-  \ganttlink[link type=f-s]{currdev}{teach}
+  \ganttlink[link type=f-s]{cadv}{teach}
   \ganttlink[link type=f-s]{teach}{eval}
-  \ganttlink[link type=f-s]{eval}{mansub}
   \ganttlink[link type=f-s]{extract}{sequence}
   \ganttlink[link type=f-s]{sequence}{assvar}
   \ganttlink[link type=f-s]{assvar}{analysis}
