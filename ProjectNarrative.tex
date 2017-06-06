@@ -47,9 +47,10 @@ This would place me in a situation where I would be able to contribute to plant 
 
 The proposed research aims to understand local adaptation of the plant pathogenic fungus \textit{Sclerotinia sclerotiorum} across thermal regions. 
 By conducting this research openly, I can use the data and analyses as source materials to create educational activities. 
-These will be focused on the topic of reproducible and open research in genomic data analysis, which will be taught as a special topics course in the Department of Plant Pathology at the University of Nebraska-Lincoln. 
+These will be focused on the topic of reproducible and open research in agricultural sciences, which will be taught as a special topics course in the Department of Plant Pathology at the University of Nebraska-Lincoln. 
 A summary of the course will additionally be published in the journal \textit{Plant Health Instructor}. 
-\textbf{My overall goals for this fellowship are to develop my skills in education and genomic-scale research.} 
+\textbf{My overall goals for this fellowship are to develop my skills in education and genomic-scale research.}
+When I accomplish these goals, I am confident that I will be adequately prepared to mentor future plant pathologists.
 
 \subsection{Research Training}
 
@@ -120,7 +121,8 @@ I have experience teaching short, 3 hour workshops, but don't have formal traini
 
 \section{Mentoring Plan}
 
-The applicants are expected to engage their mentors and/or advisors in the
+\noindent \textbf{WORK IN PROGRESS}\\
+\noindent The applicants are expected to engage their mentors and/or advisors in the
 development of their application. Thus, prior to submission of the
 application, prospective fellows should already identify a Primary mentor who
 will be willing to help them in their projects as well as professional
@@ -159,7 +161,6 @@ describing the role of the mentor, the applicant should:
 
 \end{enumerate}
 
-
 % ------------------------------------------------------------------------------
 
 \section{Project Plan}
@@ -175,7 +176,7 @@ describing the role of the mentor, the applicant should:
 Reproducible research is simple to understand. 
 If you can recreate the results of a study using the same data and analyses, then it is reproducible (Fig. \ref{fig:rr-def}) \citep{buckheit1995wavelab,peng2011reproducible,patil2016statistical}. 
 In theory, all scientific research should be reproducible, but in practice, this is not always the case.
-A recent survey revealed that up to 50\% of researchers were unable to reproduce their own published results and that >80\% agreed that there was a ``reproducibility crisis'' \citep{baker2016scientists}.
+A recent survey revealed that up to 50\% of researchers were unable to reproduce their own published results and that 90\% indicated that there was a ``reproducibility crisis'' \citep{baker2016scientists}.
 Despite major journals taking steps to implement incentives for transparency \citep{nature2017announcement}, \textbf{there is still a need for training on reproducibility across biological science disciplines} \citep{barone2017unmet}.
 In the last decade, computational tools have become available that make reproducibility more accessible \citep{boettiger2015introduction,wilson2016good}.
 Moreover, there are many benefits for scientists to adopt open and reproducible methods including increased citation counts, funding opportunities, and collaborations \citep{mckiernan2016open,stewart-lowndes2017path,schmidt2016stepping}.
@@ -194,7 +195,7 @@ This fungus can survive for several years in the soil in the form of melanized s
 Due to its wide host range and necrotrophism, management of this pathogen largely involves fungicide applications and, to a lesser extent, resistant cultivars \citep{bolton2006sclerotinia}.
 Effective management strategies for any fungal pathogen depends on the knowledge of genetic diversity and adaptive potential \citep{grunwald2016population}. 
 
-\citet{carbone2001microbial} hypothesized that \textit{S. sclerotiorum} may be adapted to specific ecological conditions.
+Studies using both phenotypic traits and molecular markers have suggested that \textit{S. sclerotiorum} may be locally adapted to thermal conditions \citep{huang1991temperature,carbone2001microbial}.
 Numerous studies over the last 30 years around the world show increased diversity in subtropical regions, but \citet{lehner2017sclerotinia} show that this may be an artifact of low resolution genetic markers.
 In the past 30 years, studies have been conducted either across continental or climate regions, but no studies have addressed if the differences observed between \textit{S. sclerotiorum} populations is due to climate or region.
 
@@ -307,7 +308,7 @@ Mycelia will be collected via vacuum filtration, discarding agar plugs. Tissue w
   \label{fig:us-china}
 \end{wrapfigure}
 \noindent \textbf{Genome Sequencing and Alignment -} 
-Whole genomic DNA will be sent to the Beijing Genomics Institute (BGI) for Illumina (Illumina inc.) library preparation of 150bp paired-end libraries and sequencing. Libraries will be sequenced to >15X depth with samples from all populations evenly split on two lanes of Illumina HiSeq 4000 sequencer.
+Whole genomic DNA will be sent to the Beijing Genomics Institute (BGI) for Illumina (Illumina inc.) library preparation of 150bp paired-end libraries and sequencing. Libraries will be sequenced to $>15\times$ depth with samples from all populations evenly split on two lanes of Illumina HiSeq 4000 sequencer.
 Data will be downloaded from BGI, validated by checking the MD5 hash sums, and read-only copies will be uploaded to UNL's Attic storage system and the Open Science Framework. 
 On UNL's cluster computing infrastructure, reads will be mapped to the \textit{S. sclerotiorum} reference genome using a workflow modified from \url{https://github.com/zkamvar/read-processing}, which uses \textsc{Bowtie2} and \textsc{Samtools} to map reads and \textsc{GATK} for variant discovery \citep{langmead2012fast, li2009sequence, mckenna2010genome, derbyshire2017complete}.\\ 
 \noindent \textbf{Expectations -}
