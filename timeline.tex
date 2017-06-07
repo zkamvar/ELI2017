@@ -24,7 +24,7 @@
 \begin{ganttchart}[
     canvas/.append style={fill=unlcream, draw=black!5, line width=.75pt},
     hgrid style/.style={draw=black!5, line width=.75pt},
-    vgrid={*1{draw=black!5, line width=.75pt}},
+    vgrid={*{5}{draw=black!5, line width=.75pt}, *1{draw=black!10, dashed, line width=.75pt}},
     y unit chart = 0.5cm, % https://tex.stackexchange.com/a/162693/77699
     title/.style={draw=none, fill=none},
     title label font=\bfseries\large,
@@ -37,8 +37,9 @@
     bar incomplete/.append style={fill=barblue},
     bar progress label font=\mdseries\footnotesize\color{black!70},
     milestone/.append style={fill=unlred},
+    milestone inline label node/.append style={right=1mm},
     milestone top shift = 0.15,
-    % milestone inline label node/.append style={top=-2mm},
+    milestone label font=\mdseries\small\color{black!70},
     group incomplete/.append style={fill=unlred},
     group left shift=0,
     group right shift=0,
@@ -55,23 +56,23 @@
   \ganttgroup[progress=0, 
               progress label text={}
              ]{Reproducible Research Course}{1}{24} \\
-  \ganttbar[name=tw]{Northstar Summer Institute}{2}{2.5} \\
-  \ganttbar[name=cpres]{Presentation on Reproducible Research (UNL)}{10}{10}\\
-  \Dganttbar{name=currdev}{\textbf{Curriculum Development}}{A}{1}{12} \\
-  \ganttbar[name=cadv]{Advertising/Website Development}{10}{15}\\
-  \Dganttbar{name=teach}{\textbf{Teaching}}{B}{16}{20}\\
-  \Dganttbar{name=eval}{\textbf{Evaluation}}{C}{21}{22}\\
-  \Dganttbar{name=mansub}{\textbf{Manuscript Preparation and Submission}}{D}{21}{24}\\
+  \Dganttbar{name=tw}{Northstar Summer Institute}{A}{2}{2.5} \\
+  \Dganttbar{name=cpres}{Presentation on Reproducible Research (UNL)}{F}{10}{10}\\
+  \Dganttbar{name=currdev}{\textbf{Curriculum Development}}{G}{1}{12} \\
+  \Dganttbar{name=cadv}{Advertising/Website Development}{I}{10}{15}\\
+  \Dganttbar{name=teach}{\textbf{Teaching}}{L}{16}{20}\\
+  \Dganttbar{name=eval}{\textbf{Evaluation}}{M}{21}{22}\\
+  \Dganttbar{name=mansub}{\textbf{Manuscript Preparation and Submission}}{N}{21}{24}\\
   \ganttgroup[progress=0, 
               progress label text={}
              ]{Local Adaptation of \textit{S. sclerotiorum}}{1}{19}\\
-  \Dganttbar{name=extract}{\textbf{DNA Extraction}}{E}{1}{3}\\
-  \Dganttbar{name=sequence}{\textbf{Genome Sequencing (BGI)}}{F}{4}{6}\\
-  \ganttbar[name=woods]{Woods Hole Workshop}{3}{3.5}\\
-  \Dganttbar{name=assvar}{\textbf{Assembly and Data Processing}}{G}{7}{7.5}\\
+  \Dganttbar{name=extract}{\textbf{DNA Extraction}}{B}{1}{3}\\
+  \Dganttbar{name=sequence}{\textbf{Genome Sequencing (BGI)}}{D}{4}{6}\\
+  \Dganttbar{name=woods}{Woods Hole Workshop}{C}{3}{3.5}\\
+  \Dganttbar{name=assvar}{\textbf{Assembly and Data Processing}}{E}{7}{7.5}\\
   \Dganttbar{name=analysis}{\textbf{Population Genetic Analysis}}{H}{8}{12}\\
-  \Dganttbar{name=manprep}{\textbf{Manuscript Preparation and Submission}}{I}{13}{19}\\
-  \ganttbar[name=presi]{Presentation at APS National Meeting}{15}{15}
+  \Dganttbar{name=manprep}{\textbf{Manuscript Preparation and Submission}}{K}{13}{19}\\
+  \Dganttbar{name=presi}{Presentation at APS National Meeting}{J}{15}{15}
   \ganttlink[link type=f-s]{cadv}{teach}
   \ganttlink[link type=f-s]{teach}{eval}
   \ganttlink[link type=f-s]{extract}{sequence}
