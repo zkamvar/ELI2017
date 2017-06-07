@@ -29,22 +29,17 @@
 % publications, presentations, etc.
 \subsection{Personal Statement}
 
+I am a first year postdoctoral scholar working in the intersection of plant pathology, fungal evolutionary biology, and data science. My Ph. D. dissertation focused on developing open source tools for reproducible analysis of clonal pathogen populations. 
+\textbf{My ultimate research goal is to understand how clonal plant pathogen populations evolve in agricultural ecosystems.}
+As environmental pressures mount from management practices and changing climate, our food security depends on our knowledge of pathogen evolution \citep{croll2016genetic,grunwald2016population,stukenbrock2013evolution}.
+I am also dedicated to the practice of open and reproducible research (Fig. \ref{fig:rr-def}) as there are many well-documented benefits \citep{mckiernan2016open} including the potential for making agricultural science a more diverse and inclusive field.
+
 \begin{wrapfigure}[]{R}[]{0pt}
   \includegraphics[width=0.35\textwidth]{figure/whitaker2017publishing.pdf}
   \caption{Conceptual definition of computational reproducible research (top left) adapted from \citet{whitaker2017publishing}. If the code and data are the same, they should produce the same results \citep{patil2016statistical}.
   }
   \label{fig:rr-def}
 \end{wrapfigure}
-
-% Sydney's first impression:
-% My first impression is that you need to add information that introduces who
-% you are and what work you have done previously, which all lead up to your
-% current research/career goals.
-
-I am a first year postdoctoral scholar working in the intersection of plant pathology, fungal evolutionary biology, and data science. My Ph. D. dissertation focused on developing open source tools for reproducible analysis of clonal pathogen populations. 
-\textbf{My ultimate research goal is to understand how clonal plant pathogen populations evolve in agricultural ecosystems.}
-As environmental pressures mount from management practices and changing climate, our food security depends on our knowledge of pathogen evolution \citep{croll2016genetic,grunwald2016population,stukenbrock2013evolution}.
-I am also dedicated to the practice of open and reproducible research (Fig. \ref{fig:rr-def}) as there are many well-documented benefits \citep{mckiernan2016open} including the potential for making agricultural science a more diverse and inclusive field.
 
 Ideally, I would like to pursue this goal by obtaining a faculty position with
 research and teaching responsibilities. 
@@ -84,7 +79,6 @@ I do not have substantial experience asking evolutionary questions of large-scal
   \item \textbf{Data Validation and Analysis:} Genome assembly, data validation,
   and analysis will be done on the Holland Computing Center (HCC) Clusters at University of Nebraska-Lincoln. Genome sequences will be deposited in GenBank and all metadata and analysis scripts will be stored at the Open Science Framework and given a unique Digital Object Identifier.
 \end{enumerate}
-
 
 \subsection{Pedagogical Training}
 
@@ -167,6 +161,37 @@ describing the role of the mentor, the applicant should:
 
 \end{enumerate}
 
+\noindent \textbf{Mentor's Former Mentees and their current positions}
+
+
+% \begin{tabular}{p{0.25\linewidth}p{0.2\linewidth}p{0.4\linewidth}}
+% \textbf{Name} & \textbf{Position} & \textbf{Current} \\
+% \hline\\
+% Thomas Miorini & postdoc & postdoctoral scholar with Dr. Loren Giesler, Department of Plant Pathology, UNL\\
+
+% B. Sajeewa Amaradasa & postdoc & postdoctoral scholar with Dr. Nick Dufault, Department of Plant Pathology, University of Florida\\
+
+% Sarah Campbell & undergrad assistant & graduate student with Drs. Phil Brannen and Harald Scherm, Department of Plant Pathology, University of Georgia\\
+
+% Morgan Thompsen & undergrad assistant & working towards completion of her bachelor's degree in biological science for pre-nursing, UNL\\
+
+% Josh Hanson & undergrad assistant &working towards completion of his bachelor's in Biological Systems Engineering, UNL\\
+% \hline
+% \end{tabular}
+
+\begin{itemize}
+  \item Thomas Miorini, postdoctoral scholar UNL 2016-2017; presently postdoctoral scholar with Dr. Loren Giesler, Department of Plant Pathology, UNL
+
+  \item Bimal Sajeewa Amaradasa, postdoctoral scholar UNL 2014-2016; presently postdoctoral scholar with Dr. Nick Dufault, Department of Plant Pathology, University of Florida
+
+  \item Sarah Campbell, undergraduate lab assistant UNL 2014-2016; presently graduate student with Drs. Phil Brannen and Harald Scherm, Dept. of Plant Pathology, University of Georgia
+
+  \item Morgan Thompsen, undergraduate lab assistant UNL 2016; presently working towards completion of her bachelor's degree in biological science for pre-nursing, UNL
+
+  \item Josh Hanson, undergraduate lab assistant UNL 2014-2016; presently working towards completion of his bachelor's in Biological Systems Engineering, UNL
+\end{itemize}
+
+
 % ------------------------------------------------------------------------------
 
 \section{Project Plan}
@@ -206,7 +231,7 @@ Numerous studies over the last 30 years around the world show increased diversit
 In the past 30 years, studies have been conducted either across continental or climate regions, but no studies have addressed if the differences observed between \textit{S. sclerotiorum} populations is due to climate or region.
 In addition, no previous studies have evaluated the population genomic variation
 of this fungal pathogen, despite more than 50 population studies to date using
-SSR markers. 
+SSR markers, which have been shown to poorly resolve haplotype diversity \citep{lehner2017independently}. 
 
 % Might want to emphasize that no previous studies have evaluated the population
 % genomic variation of this fungal plant pathogen, despite XX number of
@@ -275,6 +300,11 @@ GitHub currently allows open source projects to be hosted free of charge, but si
 
 \subsubsection{Objective \#2: Whole Genome Sequencing of 96 \textit{Sclerotinia sclerotiorum} isolates}
 
+\begin{wrapfigure}[16]{l}[]{0pt} % [lineheight]{position}[overhang]{width}
+  \includegraphics[width=0.35\textwidth]{figure/us-china.pdf}
+  \caption{A hypothesis of the evolutionary history of \textit{S. slcerotiorum} in temparate and subtropical regions between North America and East Asia}
+  \label{fig:us-china}
+\end{wrapfigure}
 \noindent \textbf{Sampling and Experimental Design -}
 A total of 96 isolates split evenly across eight subpopulations of \textit{S. sclerotiorum} will be gathered from canola fields in China and the USA representing temperate regions temperate regions (between $40^{\circ}N$ and $66^{\circ}N$) and subtropical regions (between $23.5^{\circ}N$ and $40^{\circ}N$) (Fig. \ref{fig:us-china}).
 Isolates from China will be random samples from Gansu, Qinghai, Anhui, and Hunan provinces originating from \citet{zhou2014dimethachlon} and \citet{attanayake2013sclerotinia}.
@@ -282,11 +312,6 @@ Isolates from USA will be from canola fields in North Dakota, Colorado, Georgia,
 Prior to DNA extraction, all isolates will be grown on Potato Dextrose Agar (PDA) for 5 days at $24^{\circ}C$ and transferring four 8mm plugs to an 100mL liquid PDA with shaking for four days at $24^{\circ}C$ as performed in \citet{derbyshire2017complete}.\\
 \noindent \textbf{DNA Extraction -}
 Mycelia will be collected via vacuum filtration, discarding agar plugs. Tissue will be homogenized using liquid nitrogen in sterile mortar and pestles stored $-80^{\circ}C$. Extraction will be performed using the DNA Plant Maxi Kit (Qiagen) following manufacturer's instructions yielding into 1mL sterile Milli-Q Water (Millipore). Final DNA concentration will be checked using the Qubit Fluorametric quantification system (ThermoFisher) and quality will be assessed via 1\% gel electrophoresis. DNA will be stored at $-80^{\circ}C$.\\
-\begin{wrapfigure}[16]{l}[]{0pt} % [lineheight]{position}[overhang]{width}
-  \includegraphics[width=0.35\textwidth]{figure/us-china.pdf}
-  \caption{A hypothesis of the evolutionary history of \textit{S. slcerotiorum} in temparate and subtropical regions between North America and East Asia}
-  \label{fig:us-china}
-\end{wrapfigure}
 \noindent \textbf{Genome Sequencing and Alignment -} 
 Whole genomic DNA will be sent to the Beijing Genomics Institute (BGI) for Illumina (Illumina inc.) library preparation of 150bp paired-end libraries and sequencing. Libraries will be sequenced to $>15\times$ depth with samples from all populations evenly split on two lanes of Illumina HiSeq 4000 sequencer.
 Data will be downloaded from BGI, validated by checking the MD5 hash sums, and read-only copies will be uploaded to UNL's Attic storage system and the Open Science Framework. 
@@ -335,12 +360,12 @@ The students will be self-selecting for those interested in reproducible researc
 To avoid this, advertisements will be tailored to specific departments and will emphasize that no prior knowledge of reproducible research is required.
 
 \noindent \textbf{Hazards -} No known hazards are associated with this project.\\
-\noindent \textbf{Timeline -} The proposed objectives will be accomplished within the project timeline presented in Figure \ref{fig:timeline}.
+\noindent \textbf{Timeline -} The proposed objectives will be completed within the timeline presented in Figure \ref{fig:timeline}.
 
 \begin{figure}[!htbp]
   \centering
   \includegraphics[width=0.95\textwidth]{packet/timeline.pdf}
-  \caption{Project Timeline with milestones labeled as red diamonds}
+  \caption{Project Timeline. The milestones \textbf{A-N} each represent generation of a measurable outcome used in the evaluation plan.}
   \label{fig:timeline}
 \end{figure}
 
@@ -351,14 +376,14 @@ To avoid this, advertisements will be tailored to specific departments and will 
 
 \subsection{Progress Evaluation}
 
-Monthly progress reports will be written and shared with mentors identifying achieved, in-progress, and outstanding goals as well as challenges and opportunities. During the first year, a quarterly course curriculum update and evaluation will be presented to the project mentors in group meetings. Course progress will be assessed by monthly observations from the project mentors and anonymous surveys from the students.
+Monthly progress reports will be written and shared with mentors identifying achieved, in-progress, and outstanding goals as well as challenges and opportunities. During the first year, a quarterly course curriculum update and evaluation will be presented to the project mentors in group meetings. Course progress will be assessed by monthly observations from the project mentors and anonymous surveys from the students. 
 
 \subsubsection{Milestones}
 \begin{itemize}
-  \item \textbf{6 months:} Genomes sequenced (\textbf{E, F}), workshops on teaching and molecular evolution attended, outline for each week of course created, preregistration of research uploaded to the Open Science Framework
-  \item \textbf{12 months:} Genomes assembled (\textbf{G}), population genetic analysis performed (\textbf{H}), lesson plans for each week of the course completed (\textbf{A}), special topics course registered, course website created, presentation at UNL Plant Pathology Seminar held.
-  \item \textbf{18 months:} Presentation at APS National Meeting on research, course for graduate students underway
-  \item \textbf{24 months:} Course completed (\textbf{B, C}), materials freely available in the public domain, manuscripts submitted as preprints to the Open Science Framework (\url{https://osf.io/preprints/}) and to both \textit{Molecular Ecology} and \textit{Plant Health Instructor} (\textbf{D, I}).
+  \item \textbf{6 months:} Genomes sequenced (\textbf{B, D}), workshops on teaching and molecular evolution attended (\textbf{A, C}), outline for each week of course created, preregistration of research uploaded to the Open Science Framework
+  \item \textbf{12 months:} Genomes assembled (\textbf{E}), population genetic analysis performed (\textbf{H}), lesson plans for each week of the course completed (\textbf{G}), special topics course registered, course website created, presentation at UNL Plant Pathology Seminar held (\textbf{F}).
+  \item \textbf{18 months:} Presentation at APS National Meeting on research (\textbf{J}), course for graduate students underway
+  \item \textbf{24 months:} Course completed (\textbf{I, L, M}), materials freely available in the public domain, manuscripts submitted as preprints to the Open Science Framework (\url{https://osf.io/preprints/}) and to both \textit{Molecular Ecology} and \textit{Plant Health Instructor} (\textbf{K, N}).
 \end{itemize}
 
 \subsection{Dissemination Plan}
