@@ -214,21 +214,33 @@ The fellow will be evaluated on organization and completion of project deliverab
   \label{fig:rr}
 \end{wrapfigure}
 
-Reproducible research is simple to understand. 
-If you can recreate the results of a study using the same data and analyses, then it is reproducible (Fig. \ref{fig:rr-def}) \citep{buckheit1995wavelab,peng2011reproducible,patil2016statistical}. 
+Principles behind the concept of reproducible research suggest that if a researcher can recreate the results of another individual's study using the same data and analyses, then it is reproducible (Fig. \ref{fig:rr-def}) \citep{buckheit1995wavelab,peng2011reproducible,patil2016statistical}. 
 In theory, all scientific research should be reproducible, but in practice, this is not always the case.
 A recent survey revealed that up to 50\% of researchers were unable to reproduce their own published results and that 90\% indicated that there was a ``reproducibility crisis'' \citep{baker2016scientists}.
-Despite major journals taking steps to implement incentives for transparency \citep{nature2017announcement}, \textbf{there is still a need for training on reproducibility across biological science disciplines} \citep{barone2017unmet}.
+Despite major journals and funding agencies taking steps to implement incentives for transparency \citep{nature2017announcement}, \textbf{there is still a need for training on reproducibility across the biological science disciplines} \citep{barone2017unmet}.
 In the last decade, computational tools have become available that make reproducibility more accessible \citep{boettiger2015introduction,wilson2016good}.
-Moreover, there are many benefits for scientists to adopt open and reproducible methods including increased citation counts, funding opportunities, and collaborations \citep{mckiernan2016open,stewart-lowndes2017path,schmidt2016stepping}.
+Moreover, there are many benefits for scientists who adopt open and reproducible methods including increased citation counts, a greater chance of receiving external funding, and improved relationships among peers potential collaborators \citep{mckiernan2016open,stewart-lowndes2017path,schmidt2016stepping}.
 
-The results produced from agricultural sciences often has a direct effect on the stakeholders, and it is thus imperative that the results are replicable. 
+The results produced from agricultural sciences research often have a direct effect on key agricultural stakeholders. 
+As a result, it imperative that research results be replicable. 
 As genomic and microbiome data becomes more readily available, scientists with very little background in bioinformatics are conducting studies with no knowledge of how to process their data \citep{stewart-lowndes2017path, barone2017unmet}. 
-To address the need for training on reproducible research and bioinformatics, \textbf{the long term goals} of the proposed research are \textbf{a)} to develop a course on reproducible research for students in agricultural sciences using real-world examples and \textbf{b)} create an open and reproducible example of genomic research. The second part will be carried out by \textit{testing the hypothesis} that, due to increased generational times, the plant pathogenic fungus, \textit{Sclerotinia sclerotiorum} is locally adapted to subtropical climates.\\
-\textbf{Objective \#1:} Create educational materials for graduate students using agricultural data, covering topics from data validation and curation, method choice, version control, and open data science practices (Fig. \ref{fig:rr-def}, \ref{fig:rr}).\\
-\textbf{Objective \#2:} Perform whole genome sequencing on 96 isolates of \textit{S. sclerotiorum} collected hierarchically over 8 subpopulations in North America and East Asia, respectively (Fig. \ref{fig:us-china}).\\
-\textbf{Objective \#3:} Perform population genetic, phylogeographic, and coalescent analyses to detect and test signatures of local adaptation to climate regions.\\
-\textbf{Objective \#4:} Lead a semester-long special topics course on reproducible research in the department of Plant Pathology at the University of Nebraska-Lincoln.
+To address the need for training on reproducible research and bioinformatics, \textbf{the long term goals} of the proposed project are to: \textbf{a)} develop a course on reproducible research for students in agricultural sciences using real-world examples and \textbf{b)} create an open and reproducible example of genomic research. The second part will be carried out by testing the \textbf{hypothesis} that, due to increased generational times, the plant pathogenic fungus, \textit{Sclerotinia sclerotiorum} is locally adapted to subtropical climates.
+To complete these goals and test this hypothesis, we seek completion of the following \textbf{objectives}:
+\begin{itemize}
+  \item \textbf{Objective \#1:} Create educational materials for graduate students using agricultural data, covering topics from data validation and curation, method choice, version control, and open data science practices (Fig. \ref{fig:rr-def}, \ref{fig:rr}).
+  \item \textbf{Objective \#2:} Perform whole genome sequencing on 96 isolates of \textit{S. sclerotiorum} collected hierarchically over eight subpopulations across North America and East Asia (Fig. \ref{fig:us-china}).
+  \item \textbf{Objective \#3:} Perform population genetic, phylogeographic, and coalescent analyses to detect and test signatures of local adaptation to climate regions.
+  \item \textbf{Objective \#4:} Lead a semester-long special topics course on reproducible research in the department of Plant Pathology at the University of Nebraska-Lincoln.
+\end{itemize}
+
+\begin{SCfigure}[][h!]
+  \centering
+  \includegraphics[width=0.5\textwidth]{figure/sclerotia.jpg}
+  \caption{Sclerotia of \textit{S. sclerotiorum} (left). Sclerotia can germinate producing apothecia. Ascospores from apothecia serve as primary inoculum. Image and description modified from L. Del Rio Mendoza (\url{https://www.ag.ndsu.edu/sclerotinia/pictures.html})}
+  \label{fig:sclerotia}
+\end{SCfigure}
+
+\subsubsection*{Need For Proposed Project}
 
 \textit{Sclerotinia sclerotiorum} (Ascomycota) is a cosmopolitan, haploid, plant pathogenic soil fungus with over 400 hosts worldwide \citep{bolton2006sclerotinia} and causes up to \$252M in losses per year on sunflower, soybeans, dry edible beans, canola, and pulse crops \citep{uscanola}.
 Reproduction is largely asexual, but outcrossing has been known to occur \citep{bolton2006sclerotinia,attanayake2014inferring}. 
@@ -237,24 +249,15 @@ Due to its wide host range and necrotrophism, management of this pathogen largel
 Effective management strategies for any fungal pathogen depends on the knowledge of genetic diversity and adaptive potential \citep{grunwald2016population}. 
 
 Studies using both phenotypic traits and molecular markers have suggested that \textit{S. sclerotiorum} may be locally adapted to thermal conditions \citep{huang1991temperature,carbone2001microbial}.
-Numerous studies over the last 30 years around the world show increased diversity in subtropical regions, but \citet{lehner2017sclerotinia} show that this may be an artifact of low resolution genetic markers.
+Numerous studies over the last 30 years around the world show increased diversity in subtropical regions, but \citet{lehner2017sclerotinia} show that this may be an artifact of low-resolution genetic markers.
 In the past 30 years, studies have been conducted either across continental or climate regions, but no studies have addressed if the differences observed between \textit{S. sclerotiorum} populations is due to climate or region.
-In addition, no previous studies have evaluated the population genomic variation
-of this fungal pathogen, despite more than 50 population studies to date using
-SSR markers, which have been shown to poorly resolve haplotype diversity \citep{lehner2017independently}. 
+In addition, no previous studies have evaluated the population genomic variation of this fungal pathogen, despite more than 50 population studies to date using SSR markers, which have been shown to poorly resolve haplotype diversity \citep{lehner2017independently}. 
 
 % Might want to emphasize that no previous studies have evaluated the population
 % genomic variation of this fungal plant pathogen, despite XX number of
 % population studies to date using SSR markers.
 
-\begin{SCfigure}[][t]
-  \centering
-  \includegraphics[width=0.5\textwidth]{figure/sclerotia.jpg}
-  \caption{Sclerotia of \textit{S. sclerotiorum} (left). Sclerotia can germinate producing apothecia. Ascospores from apothecia serve as primary inoculum. Image and description modified from L. Del Rio Mendoza (\url{https://www.ag.ndsu.edu/sclerotinia/pictures.html})}
-  \label{fig:sclerotia}
-\end{SCfigure}
-
-As \textit{S. sclerotiorum} occurs globally, it is important to know if populations are adapted to thermal gradients, which could affect dispersal under warming climate conditions \citep{bolton2006sclerotinia,lehner2017sclerotinia,croll2016genetic}.
+As \textit{S. sclerotiorum} occurs globally, it is important to determine if populations are adapted to thermal gradients, which could affect dispersal under warming climate conditions \citep{bolton2006sclerotinia,lehner2017sclerotinia,croll2016genetic}.
 Significant levels of differentiation have been found between populations on canola in the United States (US) and China \citep{attanayake2013sclerotinia}, but these populations occur in different climate regions.
 To test the hypothesis of local adaptation to thermal environments, we plan to infer genetic diversity, and migration patterns with modern, reproducible population genetic and phylogeographic approaches on whole genome sequence data. 
 
@@ -266,7 +269,7 @@ To test the hypothesis of local adaptation to thermal environments, we plan to i
 \textbf{AFRI Foundational Priority for Plant Health and Production and Plant Products}
 
 The rationale of the proposed work is that 
-\textbf{1)} producing educational materials on open and reproducible research will have long-term benefits for agricultural research by increasing access to eduction and emphasizing practices that will positively influence stakeholder confidence, 
+\textbf{1)} producing educational materials on open and reproducible research will have long-term benefits for agricultural research by increasing access to education and emphasizing practices that will positively influence stakeholder confidence, 
 \textbf{2)} the identification of patterns for adaptation in \textit{S. sclerotiorum} will reduce inputs by influencing management decisions regarding movement of inoculum, and 
 \textbf{3)} genomic data and analyses from 96 isolates of \textit{S. sclerotiorum} will help drive novel research on this cosmopolitan pathogen. 
 
@@ -277,7 +280,7 @@ Calls for conscious efforts to increase reproducibility have been around for man
 By training graduate students seeking masters or doctoral degrees on how to perform open and reproducible research, future agricultural science will be cost effective, innovative, and engaging. 
 This is in line with the teaching mission of the University of Nebraska, where multidisciplinary graduate education is explicitly mentioned as a focal point.
 
-Canola production is a growing industry in the United States, producing 3 billion pounds of seed grossing at \$500 million in 2016 \citep{usda2017production, usda2017values}. Losses due to Sclerotinia Stem Rot are estimated to be 1\% yield for every 2\% disease incidence \citep{delrio2007impact}, and the midwest has seen an average incidence rate of 13\% \citep{markell2009sclerotinia}, which would mean an annual loss of \$30 million. 
+Canola production is a growing industry in the United States, producing three billion pounds of seed grossing at \$500 million in 2016 \citep{usda2017production, usda2017values}. Losses due to Sclerotinia Stem Rot are estimated to be one percent yield for every two percent disease incidence \citep{delrio2007impact}, and the midwest has seen an average incidence rate of 13\% \citep{markell2009sclerotinia}, which would mean an annual loss of \$30 million. 
 It is known that local climate can exacerbate the spread of inoculum and thus, understanding the evolutionary potential for \textit{S. sclerotiorum} to adapt to a warming climate is essential for targeting future management decisions \citep{attanayake2014inferring,shea2000integrated,billiard2012sex}.
 
 For over 15 years, population genetic analysis on \textit{S. sclerotiorum} has been performed using the same set of simple sequence repeat (SSR) markers \citep{sirjusingh2001characterization}. 
@@ -290,7 +293,7 @@ By understanding the potential for thermal adaptation in \textit{S. sclerotiorum
 \subsection{Approach}
 
 
-\subsubsection*{Objective \#1: Development of Education Modules on Open and Reproducible Research}
+\subsubsection*{Objective \#1: Development of Education Modules}
 
 The overall goal of the course is to help students develop thought processes that allow them to adapt to new tools and workflows. 
 The objective of the course is for the students to be able to identify and utilize reproducible research practices including data management, version control, scripting, and archiving with the Open Science Framework (\url{https://osf.io/}).
@@ -308,7 +311,7 @@ This work will be licensed in the public domain, allowing other educators to fre
 \noindent \textbf{Pitfalls and Limitations -}
 GitHub currently allows open source projects to be hosted free of charge, but since they are a for-profit company, their policy could change at any time. If this risk presents itself, the data are archived at Zenodo and the fellow will host the materials on the Open Science Framework.
 
-\subsubsection*{Objective \#2: Whole Genome Sequencing of 96 \textit{Sclerotinia sclerotiorum} isolates}
+\subsubsection*{Objective \#2: Whole Genome Sequencing of 96 \textit{Sclerotinia sclerotiorum} Isolates}
 
 \begin{wrapfigure}[16]{l}[]{0pt} % [lineheight]{position}[overhang]{width}
   \includegraphics[width=0.35\textwidth]{figure/us-china.pdf}
@@ -336,7 +339,7 @@ We can monitor this by assessing mapping quality for all alignments and performi
 
 \noindent \textbf{Methods -} 
 We will use phylogenetic data from each gene independently to assess the evolutionary history of these populations using \textit{Botrytis cinerea} as an outgroup \citep{staats2012genome}. 
-To address phylogenetic incongruence, we will use a newly developed multivariate methods for exploring the space of phylogenetic trees across the genome \citep{kendall2016mapping, jombart2017treespace}. 
+To address phylogenetic incongruence, we will use newly developed multivariate methods for exploring the space of phylogenetic trees across the genome \citep{kendall2016mapping, jombart2017treespace}. 
 Adaptive potential will be assessed using ratios of synonymous and non-synonymous mutation rates, classifying them into positive, neutral, or negative selection, and comparing them to classes of tree topologies (geo-centric, climate-centric, or random) via $\chi^2$ test.
 Migration rates between populations will be assess using Approximate Bayesian Computation with coalescent simulations. 
 To assess migration among climate and geographic regions, we will use \textsc{ABCtoolbox} \citep{wegmann2010abctoolbox}. 
