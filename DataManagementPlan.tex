@@ -12,26 +12,37 @@
 
 \section{Expected Data Type}
 
-Primary data from research activities are expected to be digital DNA sequence reads generated from whole genome sequencing. Primary data from educational activities consist of curriculum and the number of students attending the course, stored digitally. 
+Primary data from research activities will be digital DNA sequence reads generated from whole genome sequencing. Primary data from educational activities will consist of curriculum and the number of students attending the course, stored digitally. 
 
 \section{Data Format}
 
 The primary data format for research activities will be gzip compressed FASTQ files containing both the sequence and quality scores. Secondary data formats include Makefiles, BASH scripts, Python scripts, and R scripts used for analysis in addition to text files describing the data processing.
 These will be accompanied by virtual machines (Docker containers) that will preserve identical computing environments for reproducibility. 
 
-The primary data format for educational activities will be in the form of markdown-formatted text files and rendered HTML files along with all the scripts used for website generation. 
+The primary data format for educational activities will be markdown-formatted text files and rendered HTML files along with all the scripts used for website generation. 
 
 \section{Data Storage and Preservation}
 
-All data will be stored free of charge in the Open Science Framework (\url{https://osf.io}) and additionally archived on the CERN-funded Zenodo (\url{https://zenodo.org/}). Both organizations have contingency plants that will allow data preservation for 25+ years in the case that primary funding runs out. In addition, sequencing reads and assembled genomes will be uploaded to the NCBI Short Read Archive and GenBank. 
+% As stated in the proposal instructions, "outline strategies, tools, and
+% contingency plans that will be used to avoid data loss, degradation, or
+% damage". It may be beneficial to briefly describe these contingency plans.
+
+All data will be stored free of charge in the Open Science Framework (\url{https://osf.io}) and additionally archived on the CERN-funded Zenodo (\url{https://zenodo.org/}). 
+Both organizations store their data distributed across data centers with daily backups and quality checks to prevent data loss, degradation, or damage.
+Zenodo uses CERN data centers in Geneva, mirrored in Budapest, with retention guaranteed for the next 20 years. 
+In the event of closure, Zenodo has outlined plans to transfer data to appropriate external repositories.
+THe Open Science Framework uses Rackspace and Amazon Glacier for data storage and have an established preservation fund of \$250,000 to fund data storage for 50+ years in the case of termination of the Open Science Framework. 
+In addition, sequencing reads and assembled genomes will be uploaded to the NCBI Short Read Archive and GenBank. 
 
 \section{Data Sharing and Public Access}
 
-Data from the research component will be available under the ODC Open Database License 1.0 and code will be available under the MIT license. 
+All data and materials will be hosted or mirrored on the Open Science Framework.
 
-Data from the teaching component will be released to the Public Domain.
+Data from the research component will be available under the Open Data Commons (ODC) Open Database License 1.0 and code will be available under the Massachusetts Institute of Technology (MIT) License. 
 
-All data and materials will be hosted at the Open Science Framework.
+Data from the teaching component will be released to the Public Domain, hosted on GitHub (https://github.com), and archived on Zenodo.
+
+
 
 \section{Roles and Responsibilities}
 
