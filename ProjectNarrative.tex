@@ -259,7 +259,7 @@ To complete these goals and test this hypothesis, we seek completion of the foll
   \item \textbf{Objective \#4:} Lead a semester-long special topics course on reproducible research in the department of Plant Pathology at the University of Nebraska-Lincoln.
 \end{itemize}
 
-\subsubsection*{Need For Proposed Project}
+\subsubsection*{Need For Proposed Research Project}
 \begin{wrapfigure}[]{R}[]{0pt} % 8 if hanging on new page, 29 otherwise
   \includegraphics[width=0.25\textwidth]{figure/rr.pdf}
   \caption{Diagram of an automated reproducible research workflow}
@@ -343,11 +343,6 @@ GitHub currently allows open source projects to be hosted free of charge, but si
 
 \subsubsection*{Objective \#2: Whole Genome Sequencing of 96 \textit{Sclerotinia sclerotiorum} Isolates}
 
-\begin{wrapfigure}[16]{l}[]{0pt} % [lineheight]{position}[overhang]{width}
-  \includegraphics[width=0.35\textwidth]{figure/us-china.pdf}
-  \caption{A hypothesis of the evolutionary history of \textit{S. slcerotiorum} in temparate and subtropical regions between North America and East Asia}
-  \label{fig:us-china}
-\end{wrapfigure}
 \noindent \textbf{Sampling and Experimental Design -}
 A total of 96 isolates split evenly across eight subpopulations of \textit{S. sclerotiorum} will be gathered from canola fields in China and the USA representing temperate regions temperate regions (between $40^{\circ}N$ and $66^{\circ}N$) and subtropical regions (between $23.5^{\circ}N$ and $40^{\circ}N$) (Fig. \ref{fig:us-china}).
 Isolates from China will be random samples from Gansu, Qinghai, Anhui, and Hunan provinces originating from \citet{zhou2014dimethachlon} and \citet{attanayake2013sclerotinia}.
@@ -355,7 +350,12 @@ Isolates from USA will be from canola fields in North Dakota, Colorado, Georgia,
 Prior to DNA extraction, all isolates will be grown on Potato Dextrose Agar (PDA) for 5 days at $24^{\circ}C$ and transferring four 8mm plugs to an 100mL liquid PDA with shaking for four days at $24^{\circ}C$ as performed in \citet{derbyshire2017complete}.\\
 \noindent \textbf{DNA Extraction -}
 Mycelia will be collected via vacuum filtration, discarding agar plugs. Tissue will be homogenized using liquid nitrogen in sterile mortar and pestles stored $-80^{\circ}C$. Extraction will be performed using the DNA Plant Maxi Kit (Qiagen) following manufacturer's instructions yielding into 1mL sterile Milli-Q Water (Millipore). Final DNA concentration will be checked using the Qubit Fluorametric quantification system (ThermoFisher) and quality will be assessed via 1\% gel electrophoresis. DNA will be stored at $-80^{\circ}C$.\\
-\noindent \textbf{Genome Sequencing and Alignment -} 
+\begin{wrapfigure}[16]{r}[]{0pt} % [lineheight]{position}[overhang]{width}
+  \includegraphics[width=0.35\textwidth]{figure/us-china.pdf}
+  \caption{A hypothesis of the evolutionary history of \textit{S. slcerotiorum} in temparate and subtropical regions between North America and East Asia}
+  \label{fig:us-china}
+\end{wrapfigure}
+\noindent \textbf{Genome Sequencing and Alignment -}
 Whole genomic DNA will be sent to the Beijing Genomics Institute (BGI) for Illumina (Illumina inc.) library preparation of 150bp paired-end libraries and sequencing. Libraries will be sequenced to $>15\times$ depth with samples from all populations evenly split on two lanes of Illumina HiSeq 4000 sequencer.
 Data will be downloaded from BGI, validated by checking the MD5 hash sums, and read-only copies will be uploaded to UNL's Attic storage system and the Open Science Framework. 
 On UNL's cluster computing infrastructure, reads will be mapped to the \textit{S. sclerotiorum} reference genome using a workflow modified from \url{https://github.com/zkamvar/read-processing}, which uses \textsc{Bowtie2} and \textsc{Samtools} to map reads and \textsc{GATK} for variant discovery \citep{langmead2012fast, li2009sequence, mckenna2010genome, derbyshire2017complete}.\\ 
