@@ -15,7 +15,7 @@
    viewBox="0 0 8.5 11"
    id="svg3390"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.1 r"
    sodipodi:docname="znk-tear-sheet.svg"
    inkscape:export-filename="/Users/zhian/Documents/Everhart/AFRI2017/concept-paper/znk-tear-sheet.png"
    inkscape:export-xdpi="300.01999"
@@ -4269,16 +4269,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4733703"
-     inkscape:cx="455.8208"
-     inkscape:cy="504.15737"
+     inkscape:zoom="4.1673205"
+     inkscape:cx="488.48451"
+     inkscape:cy="601.36524"
      inkscape:current-layer="layer1"
      id="namedview3394"
      showgrid="false"
-     inkscape:window-width="1664"
-     inkscape:window-height="996"
+     inkscape:window-width="1280"
+     inkscape:window-height="755"
      inkscape:window-x="4"
-     inkscape:window-y="1"
+     inkscape:window-y="23"
      inkscape:window-maximized="0"
      showguides="false"
      inkscape:snap-global="false"
@@ -4301,31 +4301,38 @@
     <sodipodi:guide
        position="7.7555555,0.75555555"
        orientation="0,765"
-       id="guide3425" />
+       id="guide3425"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="7.7444444,10.238889"
        orientation="-990,0"
-       id="guide3427" />
+       id="guide3427"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="0.75555555,10.25"
        orientation="0,-765"
-       id="guide3429" />
+       id="guide3429"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="0.75,9.9888889"
        orientation="990,0"
-       id="guide3431" />
+       id="guide3431"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="4.1242284,5.9992284"
        orientation="1,0"
-       id="guide4491" />
+       id="guide4491"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="4.3744048,6.0003139"
        orientation="1,0"
-       id="guide4493" />
+       id="guide4493"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="4.3804666,8.5088017"
        orientation="0,1"
-       id="guide22918" />
+       id="guide22918"
+       inkscape:locked="false" />
   </sodipodi:namedview>
   <metadata
      id="metadata3396">
@@ -4646,15 +4653,14 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.35555553px;line-height:125%;font-family:'Nanum Gothic';-inkscape-font-specification:'Nanum Gothic, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nanum Gothic';-inkscape-font-specification:'Nanum Gothic, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="4.2408805"
        y="1.1145064"
-       id="text4445"
-       sodipodi:linespacing="125%"><tspan
+       id="text4445"><tspan
          sodipodi:role="line"
          x="4.2408805"
          y="1.1145064"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.27777779px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold';text-align:center;text-anchor:middle"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.27777779px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold';text-align:center;text-anchor:middle"
          id="tspan4959">Teaching by Example</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#f57f29;stroke-width:0.01388889;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
@@ -4665,19 +4671,20 @@
     <flowRoot
        xml:space="preserve"
        id="flowRoot4469"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:125%;font-family:'Nanum Gothic';-inkscape-font-specification:'Nanum Gothic, Normal';text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:'Nanum Gothic';-inkscape-font-specification:'Nanum Gothic, Normal';text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        transform="matrix(0.01111111,0,0,0.01111111,0.2447568,-0.24444444)"><flowRegion
          id="flowRegion4471"><rect
            id="rect4473"
            width="193.75"
            height="70.833336"
            x="271.52777"
-           y="167.77777" /></flowRegion><flowPara
+           y="167.77777"
+           style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" /></flowRegion><flowPara
          id="flowPara4475"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.00000191px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;text-anchor:middle">Zhian N. Kamvar</flowPara><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:12.50000095px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Light';text-align:center;text-anchor:middle"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.00000191px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;text-anchor:middle">Zhian N. Kamvar</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:12.50000095px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:'Helvetica Light';text-align:center;text-anchor:middle"
          id="flowPara4483">zkamvar@unl.edu</flowPara><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:12.50000095px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Light';text-align:center;text-anchor:middle"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:12.50000095px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:'Helvetica Light';text-align:center;text-anchor:middle"
          id="flowPara4487">541-286-0187</flowPara></flowRoot>    <g
        id="g4503"
        transform="matrix(0.74746157,0,0,0.74746157,4.6438778e-4,0.58460939)"
@@ -4720,20 +4727,19 @@
          transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)" />
     </g>
     <text
-       sodipodi:linespacing="125%"
        id="text4520"
        y="2.6958301"
        x="0.73333335"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.35555553px;line-height:125%;font-family:'Nanum Gothic';-inkscape-font-specification:'Nanum Gothic, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#d00000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nanum Gothic';-inkscape-font-specification:'Nanum Gothic, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#d00000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          id="tspan4522"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.27777779px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold';text-align:start;text-anchor:start;fill:#d00000;fill-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.27777779px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold';text-align:start;text-anchor:start;fill:#d00000;fill-opacity:1"
          y="2.6958301"
          x="0.73333335"
          sodipodi:role="line">Problem Statement</tspan></text>
     <flowRoot
        transform="matrix(0.01111111,0,0,0.01111111,-1.8280812,0.97019087)"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        id="flowRoot4526"
        xml:space="preserve"><flowRegion
          id="flowRegion4528"><rect
@@ -4744,7 +4750,7 @@
            id="rect4530"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start;fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" /></flowRegion><flowPara
          id="flowPara4536"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start">The reproducibility crisis is due in part to a lack of training on reproducible research methods (Figure 1a)</flowPara></flowRoot>    <g
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start">The reproducibility crisis is due in part to a lack of training on reproducible research methods (Figure 1a)</flowPara></flowRoot>    <g
        transform="matrix(0.74746157,0,0,0.74746157,4.6438778e-4,1.4068314)"
        id="g4543"
        style="fill:#f57f29;fill-opacity:1">
@@ -4788,7 +4794,7 @@
     <flowRoot
        xml:space="preserve"
        id="flowRoot4553"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        transform="matrix(0.01111111,0,0,0.01111111,-1.8280812,1.7924128)"><flowRegion
          id="flowRegion4555"><rect
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start;fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
@@ -4797,18 +4803,18 @@
            height="60.391102"
            x="271.52777"
            y="167.77777" /></flowRegion><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start"
          id="flowPara4559">Current courses on genomic data analysis do not focus on reproducibility</flowPara></flowRoot>    <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.35555553px;line-height:125%;font-family:'Nanum Gothic';-inkscape-font-specification:'Nanum Gothic, Normal';text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nanum Gothic';-inkscape-font-specification:'Nanum Gothic, Normal';text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="1.9532732"
        y="4.2126474"
-       id="text4561"
-       sodipodi:linespacing="125%"><tspan
+       id="text4561"><tspan
          sodipodi:role="line"
          id="tspan4563"
          x="1.9532732"
-         y="4.2126474" /></text>
+         y="4.2126474"
+         style="font-size:0.35555601px;line-height:1.25"> </tspan></text>
     <g
        id="g4565"
        transform="matrix(0.74746157,0,0,0.74746157,4.6438778e-4,2.0734983)"
@@ -4851,7 +4857,7 @@
          transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)" />
     </g>
     <flowRoot
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        id="flowRoot4575"
        xml:space="preserve"
        transform="translate(-0.26666666,0.0736082)"><flowRegion
@@ -4863,10 +4869,10 @@
            id="rect4579"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start;fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" /></flowRegion><flowPara
          id="flowPara4581"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start">Examples of reproducible research for classroom settings do not involve large,</flowPara><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start">Examples of reproducible research for classroom settings do not involve large,</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start"
          id="flowPara8787">real-world data sets</flowPara></flowRoot>    <g
-       transform="matrix(0.74746157,0,0,0.74746157,4.6438778e-4,3.2443347)"
+       transform="matrix(0.74746157,0,0,0.74746157,4.6438778e-4,3.1193346)"
        id="g4591"
        style="fill:#f57f29;fill-opacity:1">
       <rect
@@ -4877,9 +4883,9 @@
          x="-1.2923976"
          y="3.0757058"
          ry="0"
-         transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)" />
+         transform="rotate(-45)" />
       <rect
-         transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)"
+         transform="rotate(-45)"
          ry="0"
          y="3.1699867"
          x="-1.3866787"
@@ -4895,9 +4901,9 @@
          x="-1.2923976"
          y="3.169987"
          ry="0"
-         transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)" />
+         transform="rotate(-45)" />
       <rect
-         transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)"
+         transform="rotate(-45)"
          ry="0"
          y="3.0757062"
          x="-1.3866783"
@@ -4908,20 +4914,19 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.35555553px;line-height:125%;font-family:'Nanum Gothic';-inkscape-font-specification:'Nanum Gothic, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#d00000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nanum Gothic';-inkscape-font-specification:'Nanum Gothic, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#d00000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="0.73333335"
        y="5.2639008"
-       id="text4601"
-       sodipodi:linespacing="125%"><tspan
+       id="text4601"><tspan
          sodipodi:role="line"
          x="0.73333335"
          y="5.2639008"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.27777779px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold';text-align:start;text-anchor:start;fill:#d00000;fill-opacity:1"
-         id="tspan4603">Project Goal</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.27777779px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold';text-align:start;text-anchor:start;fill:#d00000;fill-opacity:1"
+         id="tspan4603">Project Goals</tspan></text>
     <flowRoot
        xml:space="preserve"
        id="flowRoot4605"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        transform="translate(-0.26666666,2.1333336)"><flowRegion
          id="flowRegion4607"><rect
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start;fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
@@ -4930,7 +4935,7 @@
            height="0.83003139"
            x="1.4555603"
            y="3.36078" /></flowRegion><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start"
          id="flowPara4611">To create a course on reproducible research in genomic data analysis using a study of local adaptation in the white mold fungus, <flowSpan
    style="font-style:italic"
    id="flowSpan4963">Sclerotinia sclerotiorum.</flowSpan></flowPara></flowRoot>    <g
@@ -4976,7 +4981,7 @@
     </g>
     <flowRoot
        transform="matrix(0.01111111,0,0,0.01111111,-1.8280812,5.9632493)"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        id="flowRoot4623"
        xml:space="preserve"><flowRegion
          id="flowRegion4625"><rect
@@ -4986,29 +4991,28 @@
            width="259.36871"
            id="rect4627"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start;fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" /></flowRegion><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start"
          id="flowPara4675">Use reproducible methods to test the hypothesis of local adapatation</flowPara></flowRoot>    <flowRoot
        transform="translate(0,5.1111108)"
        xml:space="preserve"
        id="flowRoot4641"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
          id="flowRegion4643"><rect
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start;fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
            id="rect4645"
            width="2.668668"
            height="0.66082501"
            x="1.4555603"
            y="4.2496686" /></flowRegion><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start"
-         id="flowPara4647" /></flowRoot>    <text
-       sodipodi:linespacing="125%"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start"
+         id="flowPara4647"> </flowPara></flowRoot>    <text
        id="text4649"
        y="6.733335"
        x="0.73333335"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.35555553px;line-height:125%;font-family:'Nanum Gothic';-inkscape-font-specification:'Nanum Gothic, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#d00000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nanum Gothic';-inkscape-font-specification:'Nanum Gothic, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#d00000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          id="tspan4651"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.27777779px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold';text-align:start;text-anchor:start;fill:#d00000;fill-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.27777779px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold';text-align:start;text-anchor:start;fill:#d00000;fill-opacity:1"
          y="6.733335"
          x="0.73333335"
          sodipodi:role="line">Research Components</tspan></text>
@@ -5056,7 +5060,7 @@
     <flowRoot
        xml:space="preserve"
        id="flowRoot4663"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        transform="matrix(0.01111111,0,0,0.01111111,-1.8280812,5.0299159)"><flowRegion
          id="flowRegion4665"><rect
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start;fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
@@ -5065,20 +5069,19 @@
            height="79.116119"
            x="271.52777"
            y="167.77777" /></flowRegion><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start"
          id="flowPara4331">96 isolates from hierarchical sampling in temperate and tropical climates over 8 subpopulations in North America </flowPara><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start"
          id="flowPara22861">and East Asia (Figure 1b)</flowPara></flowRoot>    <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.35555553px;line-height:125%;font-family:'Nanum Gothic';-inkscape-font-specification:'Nanum Gothic, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#109dc0;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nanum Gothic';-inkscape-font-specification:'Nanum Gothic, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#109dc0;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="4.3555555"
        y="5.8888927"
-       id="text4725"
-       sodipodi:linespacing="125%"><tspan
+       id="text4725"><tspan
          sodipodi:role="line"
          x="4.3555555"
          y="5.8888927"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.27777779px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold';text-align:start;text-anchor:start;fill:#109dc0;fill-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.27777779px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold';text-align:start;text-anchor:start;fill:#109dc0;fill-opacity:1"
          id="tspan4727">Professional Goals</tspan></text>
     <g
        id="g4729"
@@ -5123,7 +5126,7 @@
     </g>
     <flowRoot
        transform="matrix(0.01111111,0,0,0.01111111,1.7941408,4.2076945)"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        id="flowRoot4739"
        xml:space="preserve"><flowRegion
          id="flowRegion4741"><rect
@@ -5132,11 +5135,11 @@
            height="80.098206"
            width="262.2496"
            id="rect4743"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start" /></flowRegion><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start;fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start"
          id="flowPara4404">Obtain faculty postion in plant pathology with teaching, outreach, and research responsibilities, focus on teaching data and computer literacy</flowPara><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start"
-         id="flowPara4410" /></flowRoot>    <g
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start"
+         id="flowPara4410"> </flowPara></flowRoot>    <g
        id="g4747"
        transform="matrix(0.74746157,0,0,0.74746157,3.6226864,6.4887794)"
        style="fill:#991e66;fill-opacity:1">
@@ -5178,7 +5181,7 @@
          transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)" />
     </g>
     <flowRoot
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        id="flowRoot4757"
        xml:space="preserve"
        transform="translate(-0.02222222,1.6444442)"><flowRegion
@@ -5189,16 +5192,15 @@
            width="2.913584"
            id="rect4761"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start;fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" /></flowRegion><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start"
          id="flowPara4412">Attend Summer Institutes on Scientific Teaching</flowPara></flowRoot>    <text
-       sodipodi:linespacing="125%"
        id="text4765"
        y="7.8666711"
        x="4.3555555"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.35555553px;line-height:125%;font-family:'Nanum Gothic';-inkscape-font-specification:'Nanum Gothic, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#109dc0;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nanum Gothic';-inkscape-font-specification:'Nanum Gothic, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#109dc0;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          id="tspan4767"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.27777779px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold';text-align:start;text-anchor:start;fill:#109dc0;fill-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.27777779px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold';text-align:start;text-anchor:start;fill:#109dc0;fill-opacity:1"
          y="7.8666711"
          x="4.3555555"
          sodipodi:role="line">Mentoring Plan</tspan></text>
@@ -5246,7 +5248,7 @@
     <flowRoot
        xml:space="preserve"
        id="flowRoot4779"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        transform="matrix(0.01111111,0,0,0.01111111,1.7941408,6.2076944)"><flowRegion
          id="flowRegion4781"><rect
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start;fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
@@ -5255,7 +5257,7 @@
            height="63.556797"
            x="271.52777"
            y="167.77777" /></flowRegion><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start"
          id="flowPara4406">Work under the guidance of Dr. Sydney Everhart, collaborating with experts in evidence-based pedagogy.</flowPara></flowRoot>    <g
        style="fill:#f57f29;fill-opacity:1"
        id="g4787"
@@ -5298,20 +5300,19 @@
          transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)" />
     </g>
     <text
-       sodipodi:linespacing="125%"
        id="text4797"
        y="9.1333351"
        x="0.73333335"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.35555553px;line-height:125%;font-family:'Nanum Gothic';-inkscape-font-specification:'Nanum Gothic, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#d00000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nanum Gothic';-inkscape-font-specification:'Nanum Gothic, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#d00000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          id="tspan4799"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.27777779px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold';text-align:start;text-anchor:start;fill:#d00000;fill-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.27777779px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold';text-align:start;text-anchor:start;fill:#d00000;fill-opacity:1"
          y="9.1333351"
          x="0.73333335"
          sodipodi:role="line">Expected Outcomes</tspan></text>
     <flowRoot
        transform="translate(-0.26666666,5.9111109)"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        id="flowRoot4801"
        xml:space="preserve"><flowRegion
          id="flowRegion4803"><rect
@@ -5320,22 +5321,22 @@
            height="0.52987933"
            width="2.7559652"
            id="rect4805"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start;fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" /></flowRegion><flowPara
          id="flowPara4807"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start">Fine-scale knowledge of diversity across temparate regions within continents </flowPara></flowRoot>    <flowRoot
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start">Fine-scale knowledge of diversity across temparate regions within continents </flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot4360"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        transform="translate(0,6.2222219)"><flowRegion
          id="flowRegion4362"><rect
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start;fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
            id="rect4364"
            width="2.6577559"
            height="0.39893365"
            x="1.4555603"
            y="3.36078" /></flowRegion><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start"
-         id="flowPara4366" /></flowRoot>    <g
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start"
+         id="flowPara4366"> </flowPara></flowRoot>    <g
        transform="matrix(0.74746157,0,0,0.74746157,4.6438778e-4,7.5554454)"
        id="g4368"
        style="fill:#f57f29;fill-opacity:1">
@@ -5379,7 +5380,7 @@
     <flowRoot
        xml:space="preserve"
        id="flowRoot4378"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        transform="translate(-0.26666666,6.4444443)"><flowRegion
          id="flowRegion4380"><rect
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start;fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
@@ -5388,7 +5389,7 @@
            height="0.41782087"
            x="1.4555603"
            y="3.36078" /></flowRegion><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start"
          id="flowPara4384">Future plant pathologists prepared to work in a reproducible manner</flowPara></flowRoot>    <g
        style="fill:#991e66;fill-opacity:1"
        transform="matrix(0.74746157,0,0,0.74746157,3.6226864,4.7776685)"
@@ -5433,7 +5434,7 @@
     <flowRoot
        xml:space="preserve"
        id="flowRoot4396"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        transform="matrix(0.01111111,0,0,0.01111111,1.7941408,5.1632499)"><flowRegion
          id="flowRegion4398"><rect
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start;fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
@@ -5442,7 +5443,7 @@
            height="42.713444"
            x="271.52777"
            y="167.77777" /></flowRegion><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start"
          id="flowPara4402">Develop skills in evidence-based teaching and population genomic analyses</flowPara></flowRoot>    <g
        style="fill:#991e66;fill-opacity:1"
        transform="matrix(0.74746157,0,0,0.74746157,3.6226864,6.9332238)"
@@ -5488,7 +5489,7 @@
        transform="translate(-0.02222222,2.0888886)"
        xml:space="preserve"
        id="flowRoot4426"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
          id="flowRegion4428"><rect
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start;fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
            id="rect4430"
@@ -5497,7 +5498,7 @@
            x="4.8333378"
            y="7.0941138" /></flowRegion><flowPara
          id="flowPara4432"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start">Obtain certificate for Software and Data Carpentry workshop training</flowPara></flowRoot>    <g
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start">Obtain certificate for Software and Data Carpentry workshop training</flowPara></flowRoot>    <g
        id="g4434"
        transform="matrix(0.74746157,0,0,0.74746157,3.6226864,7.3998904)"
        style="fill:#991e66;fill-opacity:1">
@@ -5539,7 +5540,7 @@
          transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)" />
     </g>
     <flowRoot
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        id="flowRoot4444"
        xml:space="preserve"
        transform="translate(-0.02222222,2.5555552)"><flowRegion
@@ -5549,10 +5550,10 @@
            height="0.60319811"
            width="2.9314857"
            id="rect4448"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start" /></flowRegion><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start;fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start"
          id="flowPara4450">Present research progress and results at </flowPara><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start"
          id="flowPara4454">American Phytopathological Society national meetings</flowPara></flowRoot>    <rect
        y="2.7494407"
        x="11.788371"
@@ -5571,7 +5572,7 @@
        transform="translate(3.0444443,0.77777777)"
        xml:space="preserve"
        id="flowRoot22839"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
          id="flowRegion22841"><rect
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start;fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
            id="rect22843"
@@ -5579,14 +5580,14 @@
            height="0.5833348"
            x="1.4555603"
            y="4.2496686" /></flowRegion><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:0.1388889px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Light';text-align:start;text-anchor:start"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:0.1388889px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:'Helvetica Light';text-align:start;text-anchor:start"
          id="flowPara22845"><flowSpan
    style="font-weight:bold"
    id="flowSpan22847">Figure 1:</flowSpan> a) A reproducible research workflow b) A hypothesis of the evolutionary history of <flowSpan
    style="font-style:italic;font-weight:normal"
    id="flowSpan22849">Sclerotinia sclerotiorum</flowSpan> in temperate and subtropical regions between continents</flowPara></flowRoot>    <flowRoot
        transform="matrix(0.01111111,0,0,0.01111111,0.2447568,-0.24444444)"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:125%;font-family:'Nanum Gothic';-inkscape-font-specification:'Nanum Gothic, Normal';text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:'Nanum Gothic';-inkscape-font-specification:'Nanum Gothic, Normal';text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        id="flowRoot22945"
        xml:space="preserve"><flowRegion
          id="flowRegion22947"><rect
@@ -5594,16 +5595,17 @@
            x="271.52777"
            height="70.833336"
            width="193.75"
-           id="rect22949" /></flowRegion><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.00000191px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;text-anchor:middle"
+           id="rect22949"
+           style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.00000191px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;text-anchor:middle"
          id="flowPara22951">Zhian N. Kamvar</flowPara><flowPara
          id="flowPara22953"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:12.50000095px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Light';text-align:center;text-anchor:middle">zkamvar@unl.edu</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:12.50000095px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:'Helvetica Light';text-align:center;text-anchor:middle">zkamvar@unl.edu</flowPara><flowPara
          id="flowPara22955"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:12.50000095px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Light';text-align:center;text-anchor:middle">541-286-0187</flowPara></flowRoot>    <flowRoot
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:12.50000095px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:'Helvetica Light';text-align:center;text-anchor:middle">541-286-0187</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot22957"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:125%;font-family:'Nanum Gothic';-inkscape-font-specification:'Nanum Gothic, Normal';text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:'Nanum Gothic';-inkscape-font-specification:'Nanum Gothic, Normal';text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        transform="matrix(0.01111111,0,0,0.01111111,-1.4660899,-0.64622891)"><flowRegion
          id="flowRegion22959"><rect
            id="rect22961"
@@ -5612,7 +5614,7 @@
            x="271.52777"
            y="167.77777"
            style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" /></flowRegion><flowPara
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;text-anchor:middle"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;text-anchor:middle"
          id="flowPara22967">Using real world analyses to create a course on reproducible research</flowPara></flowRoot>    <g
        style="fill:#f57f29;fill-opacity:1"
        transform="matrix(0.74746157,0,0,0.74746157,4.6438778e-4,6.1110013)"
@@ -5657,8 +5659,8 @@
     <flowRoot
        xml:space="preserve"
        id="flowRoot4977"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       transform="matrix(0.01111111,0,0,0.01111111,-1.8280812,6.4965827)"><flowRegion
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="matrix(0.01111111,0,0,0.01111111,-1.8280812,6.4965826)"><flowRegion
          id="flowRegion4979"><rect
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start;fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
            id="rect4981"
@@ -5667,22 +5669,22 @@
            x="271.52777"
            y="167.77777" /></flowRegion><flowPara
          id="flowPara4983"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start">Create series of modules on reproducible research on data management from research </flowPara></flowRoot>    <text
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start">Create series of modules on reproducible research on data management from research </flowPara></flowRoot>    <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.35555553px;line-height:125%;font-family:'Nanum Gothic';-inkscape-font-specification:'Nanum Gothic, Normal';text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nanum Gothic';-inkscape-font-specification:'Nanum Gothic, Normal';text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="-5.3657908"
        y="3.386327"
-       id="text4561-1"
-       sodipodi:linespacing="125%"><tspan
+       id="text4561-1"><tspan
          sodipodi:role="line"
          id="tspan4563-0"
          x="-5.3657908"
-         y="3.386327" /></text>
+         y="3.386327"
+         style="font-size:0.35555601px;line-height:1.25"> </tspan></text>
     <flowRoot
        transform="translate(-7.3190641,4.2847903)"
        xml:space="preserve"
        id="flowRoot4641-0"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
          id="flowRegion4643-9"><rect
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start;fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
            id="rect4645-5"
@@ -5690,11 +5692,11 @@
            height="0.66082501"
            x="1.4555603"
            y="4.2496686" /></flowRegion><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start"
-         id="flowPara4647-7" /></flowRoot>    <flowRoot
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start"
+         id="flowPara4647-7"> </flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot4360-5"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        transform="translate(-7.3190641,5.3959014)"><flowRegion
          id="flowRegion4362-9"><rect
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start;fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
@@ -5703,8 +5705,8 @@
            height="0.39893365"
            x="1.4555603"
            y="3.36078" /></flowRegion><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start"
-         id="flowPara4366-4" /></flowRoot>    <rect
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start"
+         id="flowPara4366-4"> </flowPara></flowRoot>    <rect
        y="1.9231201"
        x="4.4693069"
        width="0.01111111"
@@ -6451,7 +6453,7 @@
          transform="translate(3.1481636,0.37228062)"
          xml:space="preserve"
          id="flowRoot22863-8"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
            id="flowRegion22865-2"><rect
              ry="0"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start;fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
@@ -6460,9 +6462,9 @@
              height="0.28965658"
              x="1.6083673"
              y="4.3617268" /></flowRegion><flowPara
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.1388889px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Light';text-align:start;text-anchor:start"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.1388889px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:'Helvetica Light';text-align:start;text-anchor:start"
            id="flowPara22869-3">Subtropical</flowPara></flowRoot>      <flowRoot
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          id="flowRoot22875-4"
          xml:space="preserve"
          transform="translate(3.3722804,-1.6594616)"><flowRegion
@@ -6474,14 +6476,13 @@
              id="rect22879-6"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.16666667px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start;fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" /></flowRegion><flowPara
            id="flowPara22881-4"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.1388889px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Light';text-align:start;text-anchor:start">Temperate</flowPara></flowRoot>      <text
-         sodipodi:linespacing="125%"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.1388889px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:'Helvetica Light';text-align:start;text-anchor:start">Temperate</flowPara></flowRoot>      <text
          id="text22895-5"
          y="3.8816297"
          x="4.6249576"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.35555553px;line-height:125%;font-family:'Nanum Gothic';-inkscape-font-specification:'Nanum Gothic, Normal';text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nanum Gothic';-inkscape-font-specification:'Nanum Gothic, Normal';text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
-           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold'"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.35555601px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold'"
            y="3.8816297"
            x="4.6249576"
            id="tspan22897-4"
@@ -6508,355 +6509,552 @@
     <g
        transform="matrix(0.00531222,0,0,-0.00531222,4.4340926,4.9163131)"
        id="g8382" />
-    <g
-       id="g8707"
-       transform="translate(0.04444444,0)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nanum Gothic';-inkscape-font-specification:'Nanum Gothic, Normal';text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="4.4719839"
+       y="2.7033768"
+       id="text8779"><tspan
+         sodipodi:role="line"
+         id="tspan8781"
+         x="4.4719839"
+         y="2.7033768"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.27777779px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:Helvetica">a</tspan></text>
+    <text
+       id="text8783"
+       y="2.7033768"
+       x="7.4719863"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Nanum Gothic';-inkscape-font-specification:'Nanum Gothic, Normal';text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.27777779px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:Helvetica"
+         y="2.7033768"
+         x="7.4719863"
+         id="tspan8785"
+         sodipodi:role="line">b</tspan></text>
+    <flowRoot
+       transform="matrix(0.01111111,0,0,0.01111111,-1.8280812,2.4799126)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot5807"
+       xml:space="preserve"><flowRegion
+         id="flowRegion5803"><rect
+           y="167.77777"
+           x="271.52777"
+           height="60.391102"
+           width="259.43384"
+           id="rect5801"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start;fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" /></flowRegion><flowPara
+         id="flowPara5805"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start">Examples of reproducible research for classroom settings do not involve large, real-world data sets</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5815"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="matrix(0.01111111,0,0,0.01111111,-1.8280812,3.5215788)"><flowRegion
+         id="flowRegion5811"><rect
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start;fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+           id="rect5809"
+           width="254.4846"
+           height="39.244415"
+           x="271.52777"
+           y="167.77777" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start"
+         id="flowPara5813">To create a course on reproducible research in agricultural data analysis</flowPara></flowRoot>    <flowRoot
+       transform="matrix(0.01111111,0,0,0.01111111,-1.8280812,7.413249)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot5823"
+       xml:space="preserve"><flowRegion
+         id="flowRegion5819"><rect
+           y="167.77777"
+           x="271.52777"
+           height="42.840565"
+           width="269.92706"
+           id="rect5817"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start;fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start"
+         id="flowPara5821">Fine-scale knowledge of diversity across temparate regions within continents</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5831"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="matrix(0.01111111,0,0,0.01111111,-1.8280812,7.9549157)"><flowRegion
+         id="flowRegion5827"><rect
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start;fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+           id="rect5825"
+           width="269.92706"
+           height="42.840565"
+           x="271.52777"
+           y="167.77777" /></flowRegion><flowPara
+         id="flowPara5829"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start">Future plant pathologists prepared to work in a reproducible manner</flowPara></flowRoot>    <g
+       style="fill:#f57f29;fill-opacity:1"
+       id="g5841"
+       transform="matrix(0.74746157,0,0,0.74746157,4.6438778e-4,3.5985014)">
+      <rect
+         transform="rotate(-45)"
+         ry="0"
+         y="3.0757058"
+         x="-1.2923976"
+         height="0.081404261"
+         width="0.081404261"
+         id="rect5833"
+         style="opacity:1;fill:#f57f29;fill-opacity:1;stroke:none;stroke-width:9.60000038;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:38.40000153, 9.60000038;stroke-dashoffset:33.60000229;stroke-opacity:1" />
+      <rect
+         style="opacity:1;fill:#f57f29;fill-opacity:1;stroke:none;stroke-width:9.60000038;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:38.40000153, 9.60000038;stroke-dashoffset:33.60000229;stroke-opacity:1"
+         id="rect5835"
+         width="0.081404261"
+         height="0.081404261"
+         x="-1.3866787"
+         y="3.1699867"
+         ry="0"
+         transform="rotate(-45)" />
+      <rect
+         transform="rotate(-45)"
+         ry="0"
+         y="3.169987"
+         x="-1.2923976"
+         height="0.081404261"
+         width="0.081404261"
+         id="rect5837"
+         style="opacity:1;fill:#f57f29;fill-opacity:1;stroke:none;stroke-width:9.60000038;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:38.40000153, 9.60000038;stroke-dashoffset:33.60000229;stroke-opacity:1" />
+      <rect
+         style="opacity:1;fill:#f57f29;fill-opacity:1;stroke:none;stroke-width:9.60000038;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:38.40000153, 9.60000038;stroke-dashoffset:33.60000229;stroke-opacity:1"
+         id="rect5839"
+         width="0.081404261"
+         height="0.081404261"
+         x="-1.3866783"
+         y="3.0757062"
+         ry="0"
+         transform="rotate(-45)" />
+    </g>
+    <flowRoot
+       transform="matrix(0.01111111,0,0,0.01111111,-1.8280812,4.0007456)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot5849"
+       xml:space="preserve"><flowRegion
+         id="flowRegion5845"><rect
+           y="167.77777"
+           x="271.52777"
+           height="55.891804"
+           width="259.88376"
+           id="rect5843"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start;fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" /></flowRegion><flowPara
+         id="flowPara5847"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start">Create a learning module using a study of local adaptation in the white mold fungus, <flowSpan
+   style="font-style:italic"
+   id="flowSpan5851">Sclerotinia sclerotiorum</flowSpan></flowPara></flowRoot>    <flowRoot
+       transform="matrix(0.01111111,0,0,0.01111111,1.7941408,6.8743613)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot5859"
+       xml:space="preserve"><flowRegion
+         id="flowRegion5855"><rect
+           y="167.77777"
+           x="271.52777"
+           height="37.460876"
+           width="261.4581"
+           id="rect5853"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start;fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" /></flowRegion><flowPara
+         id="flowPara5857"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start">Attend Summer Institutes on Scientific Teaching</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5867"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="matrix(0.01111111,0,0,0.01111111,1.7941408,7.3326945)"><flowRegion
+         id="flowRegion5863"><rect
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start;fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+           id="rect5861"
+           width="261.4581"
+           height="37.460876"
+           x="271.52777"
+           y="167.77777" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start"
+         id="flowPara5865">Attend Workshop on Molecular Biology in Woods Hole, MA</flowPara></flowRoot>    <flowRoot
+       transform="matrix(0.01111111,0,0,0.01111111,1.7941408,7.791028)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot5875"
+       xml:space="preserve"><flowRegion
+         id="flowRegion5871"><rect
+           y="167.77777"
+           x="271.52777"
+           height="55.458054"
+           width="256.05893"
+           id="rect5869"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start;fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" /></flowRegion><flowPara
+         id="flowPara5873"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start">Present research progress and results at American Phytopathological Society national meetings</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5885"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="matrix(0.01111111,0,0,0.01111111,1.3774742,3.166028)"><flowRegion
+         id="flowRegion5879"><rect
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000191px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:start;text-anchor:start;fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+           id="rect5877"
+           width="293.29474"
+           height="51.302719"
+           x="271.52777"
+           y="167.77777" /></flowRegion><flowPara
+         id="flowPara5883"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.50000125px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:start;text-anchor:start"><flowSpan
+   style="font-weight:bold;font-size:12.50000125px"
+   id="flowSpan5889">Figure 1:</flowSpan> a) A reproducible research workflow b) A hypothesis of the evolutionary history of <flowSpan
+   style="font-style:italic;font-size:12.50000125px"
+   id="flowSpan5891">Sclerotinia sclerotiorum</flowSpan> in temperate and subtropical regions</flowPara></flowRoot>    <g
+       transform="matrix(0.00531147,0,0,-0.00531222,4.4560285,4.937562)"
+       inkscape:label="rr"
+       id="g5920">
       <g
-         id="g8316"
-         transform="matrix(0.00531222,0,0,-0.00531222,4.4340926,4.9163131)">
-        <path
-           d="m 154.1504,324 c 0,0 -77.82817,0 -77.82817,0 -6,0 -12,-6 -12,-12 0,0 0,-12 0,-12 0,-6 6,-12 12,-12 0,0 77.82817,0 77.82817,0 6,0 12,6 12,12 0,0 0,12 0,12 0,6 -6,12 -12,12"
-           style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-           id="path8318"
-           inkscape:connector-curvature="0" />
-      </g>
+         id="g5922" />
       <g
-         id="g8320"
-         transform="matrix(0.00531222,0,0,-0.00531222,4.4340926,4.9163131)">
-        <text
-           transform="matrix(1,0,0,-1,72.2793,301.8)"
-           style="font-variant:normal;font-weight:normal;font-size:14px;font-family:Times;-inkscape-font-specification:Times-Roman;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           id="text8322">
-          <tspan
-             x="0 7.7867999 12.4488 19.448799 25.662001 31.8752 37.324001 42.7728 48.986 55.986 59.486 69.596802 75.809998 79.699203"
-             y="0"
-             sodipodi:role="line"
-             id="tspan8324">Processed Data</tspan>
-        </text>
-      </g>
-      <g
-         id="g8326"
-         transform="matrix(0.00531222,0,0,-0.00531222,4.4340926,4.9163131)">
-        <path
-           d="m 115.2363,287.8314 c 0,-19.3298 0,-47.8355 0,-53.0104"
-           style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-           id="path8328"
-           inkscape:connector-curvature="0" />
-      </g>
-      <g
-         id="g8330"
-         transform="matrix(0.00531222,0,0,-0.00531222,4.4340926,4.9163131)">
-        <path
-           d="m 131.9643,180 c 0,0 -33.45597,0 -33.45597,0 -6,0 -12,-6 -12,-12 0,0 0,-12 0,-12 0,-6 6,-12 12,-12 0,0 33.45597,0 33.45597,0 6,0 12,6 12,12 0,0 0,12 0,12 0,6 -6,12 -12,12"
-           style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-           id="path8332"
-           inkscape:connector-curvature="0" />
-      </g>
-      <g
-         id="g8334"
-         transform="matrix(0.00531222,0,0,-0.00531222,4.4340926,4.9163131)">
-        <text
-           transform="matrix(1,0,0,-1,94.62256,157.8)"
-           style="font-variant:normal;font-weight:normal;font-size:14px;font-family:Times;-inkscape-font-specification:Times-Roman;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           id="text8336">
-          <tspan
-             x="0 9.3380003 15.5512 21 28 31.8892 35.7784"
-             y="0"
-             sodipodi:role="line"
-             id="tspan8338">Results</tspan>
-        </text>
-      </g>
-      <g
-         id="g8340"
-         transform="matrix(0.00531222,0,0,-0.00531222,4.4340926,4.9163131)">
-        <path
-           d="m 115.2363,143.8314 c 0,-19.3298 0,-47.83548 0,-53.0104"
-           style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-           id="path8342"
-           inkscape:connector-curvature="0" />
-      </g>
-      <g
-         id="g8344"
-         transform="matrix(0.00531222,0,0,-0.00531222,4.4340926,4.9163131)">
-        <path
-           d="m 143.0091,36 c 0,0 -55.54556,0 -55.54556,0 -6,0 -12,-6 -12,-12 0,0 0,-12 0,-12 0,-6 6,-12 12,-12 0,0 55.54556,0 55.54556,0 6,0 12,6 12,12 0,0 0,12 0,12 0,6 -6,12 -12,12"
-           style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-           id="path8346"
-           inkscape:connector-curvature="0" />
-      </g>
-      <g
-         id="g8348"
-         transform="matrix(0.00531222,0,0,-0.00531222,4.4340926,4.9163131)">
-        <text
-           transform="matrix(1,0,0,-1,83.3501,13.8)"
-           style="font-variant:normal;font-weight:normal;font-size:14px;font-family:Times;-inkscape-font-specification:Times-Roman;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           id="text8350">
-          <tspan
-             x="0 7.7867999 14.7868 21.7868 25.676001 29.565201 35.7784 41.9916 45.880798 49.77 56.77"
-             y="0"
-             sodipodi:role="line"
-             id="tspan8352">Publication</tspan>
-        </text>
-      </g>
-      <g
-         id="g8364"
-         transform="matrix(0.00531222,0,0,-0.00531222,4.4340926,4.9163131)">
+         id="g5924">
         <g
-           id="g8545">
+           transform="translate(4,4)"
+           id="g5926">
           <path
-             transform="translate(-8.3664538e-6,-2.0916135e-6)"
              inkscape:connector-curvature="0"
-             id="path8356"
-             style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-             d="m -0.2374917,360 96.9476397,0 0,36 -96.9476397,0 0,-36 z" />
+             id="path5928"
+             style="fill:#fefdfa;fill-opacity:1;fill-rule:nonzero;stroke:#109dc0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m 179.7536,306 c 0,9.9411 -28.7673,18 -64.2536,18 -35.48629,0 -64.2536,-8.0589 -64.2536,-18 0,-9.9411 28.76731,-18 64.2536,-18 35.4863,0 64.2536,8.0589 64.2536,18 z" />
+        </g>
+        <g
+           transform="translate(4,4)"
+           id="g5930">
           <text
-             id="text8360"
+             id="text5934"
              style="font-variant:normal;font-weight:normal;font-size:14px;font-family:Times;-inkscape-font-specification:Times-Roman;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,7.999995,380.79999)">
+             transform="matrix(1,0,0,-1,72.54297,301.8)">
             <tspan
-               id="tspan8362"
+               id="tspan5932"
+               sodipodi:role="line"
+               y="0"
+               x="0 7.7867999 12.4488 19.448799 25.662001 31.8752 37.324001 42.7728 48.986 55.986 59.486 69.596802 75.809998 79.699203">Processed Data</tspan>
+          </text>
+        </g>
+        <g
+           transform="translate(4,4)"
+           id="g5936">
+          <path
+             inkscape:connector-curvature="0"
+             id="path5938"
+             style="fill:#f5f1e7;fill-opacity:1;fill-rule:nonzero;stroke:#fffffe;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:0"
+             d="m 115,233.5 h 1 v 1 h -1 z" />
+        </g>
+        <g
+           transform="translate(4,4)"
+           id="g5940">
+          <path
+             inkscape:connector-curvature="0"
+             id="path5942"
+             style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m 115.5,287.8314 c 0,-19.3298 0,-47.8355 0,-53.0104" />
+        </g>
+        <g
+           transform="translate(4,4)"
+           id="g5944">
+          <path
+             inkscape:connector-curvature="0"
+             id="path5946"
+             style="fill:#fefdfa;fill-opacity:1;fill-rule:nonzero;stroke:#109dc0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m 151.7992,162 c 0,9.9411 -16.2517,18 -36.2992,18 -20.04747,0 -36.29916,-8.0589 -36.29916,-18 0,-9.9411 16.25169,-18 36.29916,-18 20.0475,0 36.2992,8.0589 36.2992,18 z" />
+        </g>
+        <g
+           transform="translate(4,4)"
+           id="g5948">
+          <text
+             id="text5952"
+             style="font-variant:normal;font-weight:normal;font-size:14px;font-family:Times;-inkscape-font-specification:Times-Roman;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,94.88623,157.8)">
+            <tspan
+               id="tspan5950"
+               sodipodi:role="line"
+               y="0"
+               x="0 9.3380003 15.5512 21 28 31.8892 35.7784">Results</tspan>
+          </text>
+        </g>
+        <g
+           transform="translate(4,4)"
+           id="g5954">
+          <path
+             inkscape:connector-curvature="0"
+             id="path5956"
+             style="fill:#f5f1e7;fill-opacity:1;fill-rule:nonzero;stroke:#fffffe;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:0"
+             d="m 115,89.5 h 1 v 1 h -1 z" />
+        </g>
+        <g
+           transform="translate(4,4)"
+           id="g5958">
+          <path
+             inkscape:connector-curvature="0"
+             id="path5960"
+             style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m 115.5,143.8314 c 0,-19.3298 0,-47.83548 0,-53.0104" />
+        </g>
+        <g
+           transform="translate(4,4)"
+           id="g5962">
+          <path
+             inkscape:connector-curvature="0"
+             id="path5964"
+             style="fill:#fefdfa;fill-opacity:1;fill-rule:nonzero;stroke:#109dc0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m 165.781,18 c 0,9.94113 -22.5116,18 -50.281,18 -27.76941,0 -50.28096,-8.05887 -50.28096,-18 0,-9.941125 22.51155,-18 50.28096,-18 27.7694,0 50.281,8.058875 50.281,18 z" />
+        </g>
+        <g
+           transform="translate(4,4)"
+           id="g5966">
+          <text
+             id="text5970"
+             style="font-variant:normal;font-weight:normal;font-size:14px;font-family:Times;-inkscape-font-specification:Times-Roman;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,83.61377,13.8)">
+            <tspan
+               id="tspan5968"
+               sodipodi:role="line"
+               y="0"
+               x="0 7.7867999 14.7868 21.7868 25.676001 29.565201 35.7784 41.9916 45.880798 49.77 56.77">Publication</tspan>
+          </text>
+        </g>
+        <g
+           transform="translate(4,4)"
+           id="g5972">
+          <path
+             inkscape:connector-curvature="0"
+             id="path5974"
+             style="fill:#f5f1e7;fill-opacity:1;fill-rule:nonzero;stroke:#00b098;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m 0,360 h 97 v 36 H 0 Z" />
+        </g>
+        <g
+           transform="translate(4,4)"
+           id="g5976">
+          <text
+             id="text5980"
+             style="font-variant:normal;font-weight:normal;font-size:14px;font-family:Times;-inkscape-font-specification:Times-Roman;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,8.263672,380.8)">
+            <tspan
+               id="tspan5978"
                sodipodi:role="line"
                y="0"
                x="0 10.1108 16.323999 20.2132 26.426399 29.926399 39.2644 43.153599 49.366798 55.580002 62.580002 66.4692 73.4692">Data Cleaning</tspan>
           </text>
+        </g>
+        <g
+           transform="translate(4,4)"
+           id="g5982">
           <text
-             id="text8366"
+             id="text5986"
              style="font-variant:normal;font-weight:normal;font-size:14px;font-family:Times;-inkscape-font-specification:Times-Roman;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,31.51562,366.8)">
+             transform="matrix(1,0,0,-1,31.7793,366.8)">
             <tspan
-               id="tspan8368"
+               id="tspan5984"
                sodipodi:role="line"
                y="0"
                x="0 7.7867999 14 18.662001 22.551201 29.551201">Script</tspan>
           </text>
         </g>
-      </g>
-      <g
-         id="g8370"
-         transform="matrix(0.00531222,0,0,-0.00531222,4.4340926,4.9163131)">
-        <path
-           d="m 96.6543,378 c 2.62519,0 5.2504,0 7.8756,0"
-           style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-           id="path8372"
-           inkscape:connector-curvature="0" />
-      </g>
-      <g
-         id="g8374"
-         transform="matrix(0.00531222,0,0,-0.00531222,4.4340926,4.9163131)">
-        <path
-           d="m 104.6557,381.5001 9.9999,-3.5001 -10,-3.4999 10e-5,7 z"
-           style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-           id="path8376"
-           inkscape:connector-curvature="0" />
-      </g>
-      <g
-         id="g8388"
-         transform="matrix(0.00531222,0,0,-0.00531222,4.2642406,4.9163131)">
         <g
-           id="g8535">
+           transform="translate(4,4)"
+           id="g5988">
           <path
-             transform="translate(-8.3664538e-6,-2.0916135e-6)"
              inkscape:connector-curvature="0"
-             id="path8380"
-             style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-             d="m 31.73633,216 65,0 0,36 -65,0 0,-36 z" />
+             id="path5990"
+             style="fill:#f5f1e7;fill-opacity:1;fill-rule:nonzero;stroke:#fffffe;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:0"
+             d="m 115,377.5 h 1 v 1 h -1 z" />
+        </g>
+        <g
+           transform="translate(4,4)"
+           id="g5992">
+          <path
+             inkscape:connector-curvature="0"
+             id="path5994"
+             style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m 97.17969,378 c 2.49578,0 4.99161,0 7.48731,0" />
+        </g>
+        <g
+           transform="translate(4,4)"
+           id="g5996">
+          <path
+             inkscape:connector-curvature="0"
+             id="path5998"
+             style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m 104.9275,381.5001 10,-3.5001 -10,-3.4999 z" />
+        </g>
+        <g
+           transform="translate(4,4)"
+           id="g6000">
+          <path
+             inkscape:connector-curvature="0"
+             id="path6002"
+             style="fill:#f5f1e7;fill-opacity:1;fill-rule:nonzero;stroke:#00b098;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m 0,216 h 97 v 36 H 0 Z" />
+        </g>
+        <g
+           transform="translate(4,4)"
+           id="g6004">
           <text
-             id="text8384"
+             id="text6008"
              style="font-variant:normal;font-weight:normal;font-size:14px;font-family:Times;-inkscape-font-specification:Times-Roman;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,39.73634,236.79999)">
+             transform="matrix(1,0,0,-1,24,236.8)">
             <tspan
-               id="tspan8386"
+               id="tspan6006"
                sodipodi:role="line"
                y="0"
                x="0 10.1108 17.1108 23.323999 27.2132 34.2132 39.661999 43.551201">Analysis</tspan>
           </text>
+        </g>
+        <g
+           transform="translate(4,4)"
+           id="g6010">
           <text
-             id="text8390"
+             id="text6014"
              style="font-variant:normal;font-weight:normal;font-size:14px;font-family:Times;-inkscape-font-specification:Times-Roman;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,47.51562,222.8)">
+             transform="matrix(1,0,0,-1,31.7793,222.8)">
             <tspan
-               id="tspan8392"
+               id="tspan6012"
                sodipodi:role="line"
                y="0"
                x="0 7.7867999 14 18.662001 22.551201 29.551201">Script</tspan>
           </text>
         </g>
-      </g>
-      <g
-         id="g8394"
-         transform="matrix(0.00531222,0,0,-0.00531222,4.4340926,4.9163131)">
-        <path
-           sodipodi:nodetypes="cc"
-           d="m 64.878213,234 39.520587,0"
-           style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-           id="path8396"
-           inkscape:connector-curvature="0" />
-      </g>
-      <g
-         id="g8398"
-         transform="matrix(0.00531222,0,0,-0.00531222,4.4340926,4.9163131)">
-        <path
-           d="m 104.6636,237.5001 10,-3.5001 -10.0001,-3.4999 1e-4,7 z"
-           style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-           id="path8400"
-           inkscape:connector-curvature="0" />
-      </g>
-      <g
-         transform="translate(-0.09406805,0)"
-         id="g8700">
         <g
-           transform="matrix(0.00531222,0,0,-0.00531222,4.4340926,4.9163131)"
-           id="g8402">
+           transform="translate(4,4)"
+           id="g6016">
           <path
              inkscape:connector-curvature="0"
-             id="path8404"
-             style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-             d="m 17.47036,72 79.53194,0 0,36 -79.53194,0 0,-36 z" />
+             id="path6018"
+             style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m 97.17969,234 c 2.49578,0 4.99161,0 7.48731,0" />
         </g>
         <g
-           transform="matrix(0.00531222,0,0,-0.00531222,4.4340926,4.9163131)"
-           id="g8406">
+           transform="translate(4,4)"
+           id="g6020">
+          <path
+             inkscape:connector-curvature="0"
+             id="path6022"
+             style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m 104.9275,237.5001 10,-3.5001 -10,-3.4999 z" />
+        </g>
+        <g
+           transform="translate(4,4)"
+           id="g6024">
+          <path
+             inkscape:connector-curvature="0"
+             id="path6026"
+             style="fill:#f5f1e7;fill-opacity:1;fill-rule:nonzero;stroke:#00b098;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m 0,72 h 97 v 36 H 0 Z" />
+        </g>
+        <g
+           transform="translate(4,4)"
+           id="g6028">
           <text
-             id="text8408"
+             id="text6032"
              style="font-variant:normal;font-weight:normal;font-size:14px;font-family:Times;-inkscape-font-specification:Times-Roman;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             transform="matrix(1,0,0,-1,25.35352,85.8)">
+             transform="matrix(1,0,0,-1,16.61719,85.8)">
             <tspan
-               id="tspan8410"
+               id="tspan6030"
                sodipodi:role="line"
                y="0"
                x="0 12.4488 18.662001 25.662001 32.661999 38.110802 44.324001 48.986 52.875198 59.875198">Manuscript</tspan>
           </text>
         </g>
-      </g>
-      <g
-         id="g8412"
-         transform="matrix(0.00531222,0,0,-0.00531222,4.4340926,4.9163131)">
-        <path
-           sodipodi:nodetypes="cc"
-           d="M 79.898539,90 104.5189,90"
-           style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-           id="path8414"
-           inkscape:connector-curvature="0" />
-      </g>
-      <g
-         id="g8416"
-         transform="matrix(0.00531222,0,0,-0.00531222,4.4340926,4.9163131)">
-        <path
-           d="M 104.67,93.5001 114.6699,90 l -10,-3.4999 1e-4,7 z"
-           style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-           id="path8418"
-           inkscape:connector-curvature="0" />
-      </g>
-      <g
-         id="g8420"
-         transform="matrix(0.00531222,0,0,-0.00531222,4.4340926,4.9163131)">
-        <path
-           d="m 115.2363,468 -63.906,-18 63.906,-18 63.9061,18 -63.9061,18 z"
-           style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-           id="path8422"
-           inkscape:connector-curvature="0" />
-      </g>
-      <g
-         id="g8424"
-         transform="matrix(0.00531222,0,0,-0.00531222,4.4340926,4.9163131)">
-        <text
-           transform="matrix(1,0,0,-1,87.44141,445.8)"
-           style="font-variant:normal;font-weight:normal;font-size:14px;font-family:Times;-inkscape-font-specification:Times-Roman;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           id="text8426">
-          <tspan
-             x="0 9.3380003 15.5512 25.662001 29.162001 39.2728 45.486 49.375198"
-             y="0"
-             sodipodi:role="line"
-             id="tspan8428">Raw Data</tspan>
-        </text>
-      </g>
-      <g
-         id="g8430"
-         transform="matrix(0.00531222,0,0,-0.00531222,4.4340926,4.9163131)">
-        <path
-           d="m 115.2363,431.8314 c 0,-19.3298 0,-47.8355 0,-53.0104"
-           style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-           id="path8432"
-           inkscape:connector-curvature="0" />
-      </g>
-      <g
-         id="g8434"
-         transform="matrix(0.00531222,0,0,-0.00531222,4.4340926,4.9163131)">
-        <path
-           d="m 115.2363,377.1914 c 0,-4.2877 0,-24.8447 0,-42.7735"
-           style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-           id="path8436"
-           inkscape:connector-curvature="0" />
-      </g>
-      <g
-         id="g8438"
-         transform="matrix(0.00531222,0,0,-0.00531222,4.4340926,4.9163131)">
-        <path
-           d="m 118.7364,334.3083 -3.5001,-10 -3.4999,10 7,0 z"
-           style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-           id="path8440"
-           inkscape:connector-curvature="0" />
-      </g>
-      <g
-         id="g8442"
-         transform="matrix(0.00531222,0,0,-0.00531222,4.4340926,4.9163131)">
-        <path
-           d="m 115.2363,233.1914 c 0,-4.2877 0,-24.8447 0,-42.7735"
-           style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-           id="path8444"
-           inkscape:connector-curvature="0" />
-      </g>
-      <g
-         id="g8446"
-         transform="matrix(0.00531222,0,0,-0.00531222,4.4340926,4.9163131)">
-        <path
-           d="m 118.7364,190.3083 -3.5001,-10 -3.4999,10 7,0 z"
-           style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-           id="path8448"
-           inkscape:connector-curvature="0" />
-      </g>
-      <g
-         id="g8450"
-         transform="matrix(0.00531222,0,0,-0.00531222,4.4340926,4.9163131)">
-        <path
-           d="m 115.2363,89.19141 c 0,-4.28773 0,-24.84468 0,-42.77346"
-           style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-           id="path8452"
-           inkscape:connector-curvature="0" />
-      </g>
-      <g
-         id="g8454"
-         transform="matrix(0.00531222,0,0,-0.00531222,4.4340926,4.9163131)">
-        <path
-           d="m 118.7364,46.30827 -3.5001,-9.99996 -3.4999,10.00003 7,-7e-5 z"
-           style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-           id="path8456"
-           inkscape:connector-curvature="0" />
+        <g
+           transform="translate(4,4)"
+           id="g6034">
+          <path
+             inkscape:connector-curvature="0"
+             id="path6036"
+             style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m 97.17969,90 c 2.49578,0 4.99161,0 7.48731,0" />
+        </g>
+        <g
+           transform="translate(4,4)"
+           id="g6038">
+          <path
+             inkscape:connector-curvature="0"
+             id="path6040"
+             style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m 104.9275,93.5001 10,-3.5001 -10,-3.4999 z" />
+        </g>
+        <g
+           transform="translate(4,4)"
+           id="g6042">
+          <path
+             inkscape:connector-curvature="0"
+             id="path6044"
+             style="fill:#f5f1e7;fill-opacity:1;fill-rule:nonzero;stroke:#fdb71a;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="M 115.5,468 51.59397,450 115.5,432 l 63.906,18 z" />
+        </g>
+        <g
+           transform="translate(4,4)"
+           id="g6046">
+          <text
+             id="text6050"
+             style="font-variant:normal;font-weight:normal;font-size:14px;font-family:Times;-inkscape-font-specification:Times-Roman;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,87.70508,445.8)">
+            <tspan
+               id="tspan6048"
+               sodipodi:role="line"
+               y="0"
+               x="0 9.3380003 15.5512 25.662001 29.162001 39.2728 45.486 49.375198">Raw Data</tspan>
+          </text>
+        </g>
+        <g
+           transform="translate(4,4)"
+           id="g6052">
+          <path
+             inkscape:connector-curvature="0"
+             id="path6054"
+             style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m 115.5,431.8314 c 0,-19.3298 0,-47.8355 0,-53.0104" />
+        </g>
+        <g
+           transform="translate(4,4)"
+           id="g6056">
+          <path
+             inkscape:connector-curvature="0"
+             id="path6058"
+             style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m 115.5,377.1914 c 0,-4.2877 0,-24.8447 0,-42.7735" />
+        </g>
+        <g
+           transform="translate(4,4)"
+           id="g6060">
+          <path
+             inkscape:connector-curvature="0"
+             id="path6062"
+             style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m 119.0001,334.3083 -3.5001,-10 -3.4999,10 z" />
+        </g>
+        <g
+           transform="translate(4,4)"
+           id="g6064">
+          <path
+             inkscape:connector-curvature="0"
+             id="path6066"
+             style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m 115.5,233.1914 c 0,-4.2877 0,-24.8447 0,-42.7735" />
+        </g>
+        <g
+           transform="translate(4,4)"
+           id="g6068">
+          <path
+             inkscape:connector-curvature="0"
+             id="path6070"
+             style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m 119.0001,190.3083 -3.5001,-10 -3.4999,10 z" />
+        </g>
+        <g
+           transform="translate(4,4)"
+           id="g6072">
+          <path
+             inkscape:connector-curvature="0"
+             id="path6074"
+             style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m 115.5,89.19141 c 0,-4.28773 0,-24.84468 0,-42.77346" />
+        </g>
+        <g
+           transform="translate(4,4)"
+           id="g6076">
+          <path
+             inkscape:connector-curvature="0"
+             id="path6078"
+             style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="M 119.0001,46.30827 115.5,36.30831 112.0001,46.30834 Z" />
+        </g>
       </g>
     </g>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.35555553px;line-height:125%;font-family:'Nanum Gothic';-inkscape-font-specification:'Nanum Gothic, Normal';text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="4.4719839"
-       y="2.7033768"
-       id="text8779"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan8781"
-         x="4.4719839"
-         y="2.7033768"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.27777779px;font-family:Helvetica;-inkscape-font-specification:Helvetica">a</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text8783"
-       y="2.7033768"
-       x="7.4719863"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.35555553px;line-height:125%;font-family:'Nanum Gothic';-inkscape-font-specification:'Nanum Gothic, Normal';text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.27777779px;font-family:Helvetica;-inkscape-font-specification:Helvetica"
-         y="2.7033768"
-         x="7.4719863"
-         id="tspan8785"
-         sodipodi:role="line">b</tspan></text>
   </g>
 </svg>
