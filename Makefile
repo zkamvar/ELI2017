@@ -8,6 +8,7 @@ TARGETS := packet/LogicModel.pdf \
 	packet/KeyPersonnel.pdf \
 	packet/BudgetJustification.pdf \
 	packet/ConflictOfInterest.pdf \
+	packet/CurrentPending.pdf \
 	packet/ManagementPlan.pdf \
 	packet/DataManagementPlan.pdf  
 WARGETS := $(patsubst %.pdf, %.docx, $(TARGETS))
@@ -28,6 +29,17 @@ figure/%.pdf : figure/%.dot
 
 packet/ProjectNarrative.pdf : ProjectNarrative.tex packet/timeline.pdf
 	-latexmk -xelatex -quiet -r .latexmkrc $<
+
+# The word-generated files are simply copied over
+#
+packet/ConflictOfInterest.pdf : conflict_of_interest.pdf
+	cp $< $@
+
+packet/CurrentPending.pdf : current_pending.pdf
+	cp $< $@
+
+packet/ProjectSummary.pdf : project_summary.pdf
+	cp $< $@
 
 # The bibliography must be separate. It depends on the rendering of the
 # ProjectNarrative to get it in the correct order
