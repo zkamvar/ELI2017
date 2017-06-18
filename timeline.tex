@@ -7,6 +7,11 @@
   \ganttmilestone[inline]{#3}{#5}
   % \ganttbar[inline, bar inline label anchor=east]{#3}{#4}{#5}
 }
+\newcommand\Dganttmilestone[4]{%
+  \ganttmilestone[#1]{#2}{#4}%
+  \ganttmilestone[inline]{#3}{#4}
+  % \ganttbar[inline, bar inline label anchor=east]{#3}{#4}{#5}
+}
 \definecolor{barblue}{RGB}{153,204,254}
 \definecolor{groupblue}{RGB}{51,102,254}
 \definecolor{unlred}{RGB}{208,0,0}
@@ -25,7 +30,7 @@
     canvas/.append style={fill=unlcream, draw=black!5, line width=.75pt},
     hgrid style/.style={draw=black!5, line width=.75pt},
     vgrid={*{5}{draw=black!5, line width=.75pt}, *1{draw=black!10, dashed, line width=.75pt}},
-    y unit chart = 0.5cm, % https://tex.stackexchange.com/a/162693/77699
+    y unit chart = 0.45cm, % https://tex.stackexchange.com/a/162693/77699
     title/.style={draw=none, fill=none},
     title label font=\bfseries\large,
     title label node/.append style={below=0pt},
@@ -38,6 +43,7 @@
     bar progress label font=\mdseries\footnotesize\color{black!70},
     milestone/.append style={fill=unlred},
     milestone inline label node/.append style={right=1mm},
+    milestone label node/.append style={left=.3cm},
     milestone top shift = 0.15,
     milestone label font=\mdseries\small\color{black!70},
     group incomplete/.append style={fill=unlred},
@@ -57,12 +63,13 @@
               progress label text={}
              ]{Reproducible Research Course}{1}{24} \\
   \Dganttbar{name=tw}{Northstar Summer Institute}{A}{2}{2.5} \\
-  \Dganttbar{name=cpres}{Presentation on Reproducible Research (UNL)}{F}{10}{10}\\
-  \Dganttbar{name=currdev}{\textbf{Curriculum Development}}{G}{1}{12} \\
-  \Dganttbar{name=cadv}{Advertising/Website Development}{I}{10}{15}\\
-  \Dganttbar{name=teach}{\textbf{Teaching}}{L}{16}{20}\\
-  \Dganttbar{name=eval}{\textbf{Evaluation}}{M}{21}{22}\\
-  \Dganttbar{name=mansub}{\textbf{Manuscript Preparation and Submission}}{N}{21}{24}\\
+  \Dganttmilestone{name=cpres}{Presentation on Proposed Course (UNL)}{F}{11} \\
+  \Dganttbar{name=currdev}{CASNR Workshop}{G}{10}{10.5} \\
+  \Dganttbar{name=currdev}{\textbf{Curriculum Development}}{H}{1}{12} \\
+  \Dganttbar{name=cadv}{Advertising/Website Development}{J}{10}{15}\\
+  \Dganttbar{name=teach}{\textbf{Teaching}}{M}{16}{20}\\
+  \Dganttbar{name=eval}{\textbf{Evaluation}}{N}{21}{22}\\
+  \Dganttbar{name=mansub}{\textbf{Manuscript Preparation and Submission}}{O}{21}{24}\\
   \ganttgroup[progress=0, 
               progress label text={}
              ]{Local Adaptation of \textit{S. sclerotiorum}}{1}{19}\\
@@ -70,9 +77,9 @@
   \Dganttbar{name=sequence}{\textbf{Genome Sequencing (BGI)}}{D}{4}{6}\\
   \Dganttbar{name=woods}{Woods Hole Workshop}{C}{3}{3.5}\\
   \Dganttbar{name=assvar}{\textbf{Assembly and Data Processing}}{E}{7}{7.5}\\
-  \Dganttbar{name=analysis}{\textbf{Population Genetic Analysis}}{H}{8}{12}\\
-  \Dganttbar{name=manprep}{\textbf{Manuscript Preparation and Submission}}{K}{13}{19}\\
-  \Dganttbar{name=presi}{Presentation at APS National Meeting}{J}{15}{15}
+  \Dganttbar{name=analysis}{\textbf{Population Genetic Analysis}}{I}{8}{12}\\
+  \Dganttbar{name=manprep}{\textbf{Manuscript Preparation and Submission}}{L}{13}{19}\\
+  \Dganttmilestone{name=presi}{Presentation at APS National Meeting}{K}{15}
   \ganttlink[link type=f-s]{cadv}{teach}
   \ganttlink[link type=f-s]{teach}{eval}
   \ganttlink[link type=f-s]{extract}{sequence}
