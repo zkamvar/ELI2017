@@ -34,7 +34,7 @@ The \textbf{educational training} gained is expected to aid in my acquisition of
 The \textbf{research training} is expected to compliment my skills as a data scientist and provide me with the reproducible research practices, tools, and techniques necessary to perform evolutionary genomic data analysis. 
 The research project seeks to understand local adaptation of the plant pathogenic fungus Sclerotinia sclerotiorum across thermal regions and provide me with results, data, and analyses that I can use to create future educational activities on reproducible research. 
 These will be focused on the topic of reproducible and open research (Fig \ref{fig:rr-def}) in agricultural sciences, which will be taught as a special topics course in the Department of Plant Pathology at UNL. 
-A summary of the course will additionally be published in the journal \textit{Plant Health Instructor}. 
+A summary of the course will additionally be published in the journal \textit{Journal of College Science Teaching}. 
 To accomplish this goal, I seek completion of the \textbf{following training/career development objectives}:
 \begin{itemize}
   \item \textbf{Training Objective 1:} Complete a research training plan for development of population genomic skills
@@ -69,7 +69,7 @@ To accomplish this goal, I seek completion of the \textbf{following training/car
 % The proposed research aims to understand local adaptation of the plant pathogenic fungus \textit{Sclerotinia sclerotiorum} across thermal regions. 
 % By conducting this research openly, I can use the data and analyses as source materials to create educational activities. 
 % These will be focused on the topic of reproducible and open research in agricultural sciences, which will be taught as a special topics course in the Department of Plant Pathology at the University of Nebraska-Lincoln. 
-% A summary of the course will additionally be published in the journal \textit{Plant Health Instructor}. 
+% A summary of the course will additionally be published in the journal \textit{Journal of College Science Teaching}. 
 % \textbf{My overall goals for this fellowship are to develop my skills in education and genomic-scale research.}
 
 % When I accomplish these goals, I am confident that I will be adequately prepared to mentor future plant pathologists.
@@ -280,6 +280,7 @@ In addition, no previous studies have evaluated the population genomic variation
   \label{fig:sclerotia}
 \end{SCfigure}
 
+
 % Might want to emphasize that no previous studies have evaluated the population
 % genomic variation of this fungal plant pathogen, despite XX number of
 % population studies to date using SSR markers.
@@ -358,7 +359,7 @@ Mycelia will be collected via vacuum filtration, discarding agar plugs. Tissue w
 \end{wrapfigure} 
 \noindent \textbf{Genome Sequencing and Alignment -}
 Whole genomic DNA will be sent to the Beijing Genomics Institute (BGI) for Illumina (Illumina inc.) library preparation of 150bp paired-end libraries and sequencing. Libraries will be sequenced to $>15\times$ depth with samples from all populations evenly split on two lanes of Illumina HiSeq 4000 sequencer.
-Data will be downloaded from BGI, validated by checking the MD5 hash sums, and read-only copies will be uploaded to UNL's Attic storage system and the Open Science Framework. 
+Data will be downloaded from BGI, validated by checking the MD5 hash sums, and read-only copies will be uploaded to the Open Science Framework \citep{nosek2017osf}. 
 On UNL's cluster computing infrastructure, reads will be mapped to the \textit{S. sclerotiorum} reference genome using a workflow modified from \url{https://github.com/zkamvar/read-processing}, which uses \textsc{Bowtie2} and \textsc{Samtools} to map reads and \textsc{GATK} for variant discovery \citep{langmead2012fast, li2009sequence, mckenna2010genome, derbyshire2017complete}.\\ 
 \noindent \textbf{Expectations -}
 Based on preliminary results from sequencing clonal strains of \textit{S. sclerotiorum} after fungicide exposure we expect to see, on average, $\geq98.5\%$ coverage with $\geq8\times$ depth for all isolates. Because the reference genome of \textit{S. sclerotiorum} is from the US, we additionally expect a greater number of variants in the isolates from China.\\
@@ -390,11 +391,11 @@ In the beginning of the second year, a special topics course will be offered in 
 The course duration will be one full semester. 
 Course instruction will be designed using an active learning approach \citep{freeman2014active}.
 A strict code of conduct emphasizing inclusiveness, accessibility, and anti-harassment will be enforced.
-Lecture will be interspersed with short discussion sections and knowledge-based quizzes.
-Students will be expected to identify a project using their own data or data sets found in public repositories (i.e. \url{https://www.usda.gov/content/usda-open-data-catalog}) in the first three weeks of the course.
+By the end of the course, students will be able to define reproducible research, use data management plans, use version control software, and communicate and reproduce their research.
+Students will be expected to identify a project using their own data or data sets found in public repositories in the first three weeks of the course.
 To emphasize the importance of communication, the students will be asked to tailor final reports of their projects to a specific audience.
 Evaluation will be based on participation, in class quizzes, and the successful execution of the final project.
-Upon completion of the course, a description will be written and submitted to the peer-reviewed publication \textit{The Plant Health Instructor}.\\
+Upon completion of the course, a description will be written and submitted to the peer-reviewed publication, \textit{Journal of College Science Teaching}.\\
 \noindent \textbf{Expectations -}
 Each student will have a completed project that is fully reproducible. 
 Because of the emphasis on open science, we also expect at least half of the projects to be openly available.
@@ -427,14 +428,14 @@ Monthly progress reports will be written and shared with mentors identifying ach
   \item \textbf{6 months:} Genomes sequenced (\textbf{B, D}), workshops on teaching and molecular evolution attended (\textbf{A, C}), outline for each week of course created, preregistration of research uploaded to the Open Science Framework
   \item \textbf{12 months:} Genomes assembled (\textbf{E}), population genetic analysis performed (\textbf{I}), workshop on Teaching and Learning attended (\textbf{G})lesson plans for each week of the course completed (\textbf{H}), special topics course registered, course website created, presentation at UNL Discipline-Based Education Research seminar held (\textbf{F}).
   \item \textbf{18 months:} Presentation at APS National Meeting on research (\textbf{K}), course for graduate students underway
-  \item \textbf{24 months:} Course completed (\textbf{J, M, N}), materials freely available in the public domain, manuscripts submitted as preprints to the Open Science Framework and to both \textit{Molecular Ecology} and \textit{Plant Health Instructor} (\textbf{L, O})
+  \item \textbf{24 months:} Course completed (\textbf{J, M, N}), materials freely available in the public domain, manuscripts submitted as preprints to the Open Science Framework and to both \textit{Molecular Ecology} and \textit{Journal of College Science Teaching} (\textbf{L, O})
 \end{itemize}
 
 \subsection{Dissemination Plan}
 
 \noindent \textbf{Research Data and Scripts} will be deposited in the Open Science Framework. All materials will be released with open licenses. Data will be released under the ODC Open Database License 1.0 and code will be released under the MIT License. \\
 \noindent \textbf{Course Materials} will be hosted on GitHub and archived on Zenodo. To promote sharing and reuse, all applicable materials will be released in the public domain. \\
-\noindent \textbf{Publications} will first be submitted as preprints to the Open Science Framework preprint server. They will additionally be submitted for peer-review in the journals \textit{Molecular Ecology} and \textit{Plant Heath Instructor}. \\
+\noindent \textbf{Publications} will first be submitted as preprints to the Open Science Framework preprint server. They will additionally be submitted for peer-review in the journals \textit{Molecular Ecology} and \textit{Journal of College Science Teaching}. \\
 \noindent \textbf{Presentations} will be held in both UNL and the American Phytopathological Society (APS) National Meeting. The presentation at UNL will be on the proposed course on reproducible research. The presentation at the APS National Meeting will be on my research on \textit{S. sclerotiorum}.
 % ------------------------------------------------------------------------------
 
