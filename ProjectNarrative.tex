@@ -1,7 +1,11 @@
+% https://tex.stackexchange.com/a/34060/77699
+% \newdimen\p@ \p@=1pt % this saves macro space and time
+% \makeatletter\p@=1bp\makeatother% or \setlength{\p@}{1bp}
 \RequirePackage{nag}
 \documentclass[12pt,letterpaper]{article}
 \usepackage{atbegshi}
 \usepackage{lipsum}
+\usepackage{fontenc}
 
 \input{config.tex}
 
