@@ -9,14 +9,15 @@
 			sorting=none,
 			uniquename=false]{biblatex}
 \usepackage{booktabs}
+\usepackage{fontspec}    % for fonts
 \usepackage{fancyhdr}    % for header and footers
 \usepackage{enumitem}    % to reduce vertical space in lists
-\usepackage{relsize}
+% \usepackage{relsize}   % I don't even know what this is really for
 \usepackage{setspace}
 \usepackage{notoccite}   % prevents citations in figures coming first
 \usepackage{lineno}      % line numbers
 \usepackage{wrapfig}     % allows for text to wrap figures (kinda clunky)
-\usepackage{sidecap}
+\usepackage{sidecap}     % figures with side captions (SCfigure)
 \usepackage{hyperref}    % hyperlinks/urls
 \usepackage{indentfirst} % Indents first paragraph of section
 \usepackage{titling}     % package to muck with the titles
@@ -64,14 +65,7 @@
 
 % Typeface Settings ----------------------------------------
 \setdefaultlanguage{english}
-\setmainfont[Mapping=tex-text, 
-			 Numbers=OldStyle, 
-			 SizeFeatures={{Size=12}}
-			 ]{Times}
-\setsansfont[Mapping=tex-text, 
-			 Numbers=OldStyle, 
-			 SizeFeatures={{Size=12}}
-			 ]{Helvetica}
+\setmainfont{Times New Roman}
 \setmonofont[Scale=0.8]{Monaco}
 % \setcounter{secnumdepth}{0}
 
