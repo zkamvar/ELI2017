@@ -12,6 +12,8 @@ Food Research Initiative's Education and Literacy Initiative.
 
 #### Due Date: Wednesday, June 21, 2017
 
+### 2018-03-06: This application was not awarded funding
+
 Building the documents
 ----------------------
 
