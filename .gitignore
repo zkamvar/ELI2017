@@ -5,7 +5,7 @@ packet/*.blg
 packet/*.fdb_latexmk
 packet/*.fls
 packet/*.log
-packet/*.pdf
+# packet/*.pdf
 packet/*.run.xml
 packet/*_biber.bib
 packet/*.out
